@@ -1,0 +1,64 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="9172CC2B-AA88-54DC-48FB-F48B776C4941" name="FeatureByCategory">
+<createdBy>jufeg</createdBy>
+<createdTime>2019-09-08 18:52:13 UTC</createdTime>
+<ownerDesignName>modelo</ownerDesignName>
+<engineerTo>
+<item key="EED47A9C-CC1C-E50E-E0AF-DAE849A859D6" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="code_feature" id="3CEE4D73-5BF8-4B5D-0153-5DC1DB013FC6">
+<createdBy>jufeg</createdBy>
+<createdTime>2019-09-08 18:52:41 UTC</createdTime>
+<generatorID>17555B64-5EF7-5591-2F2C-8719AD972C4D</generatorID>
+<ownerDesignName>modelo</ownerDesignName>
+<engineerTo>
+<item key="EED47A9C-CC1C-E50E-E0AF-DAE849A859D6" value="true"/>
+</engineerTo>
+<referedAttribute>F0597E61-E7A3-A3D3-B17F-B1FF6AA4D98A</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>8 CHAR</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cod_category" id="73DA8650-417E-8C08-FD88-0E5484441698">
+<createdBy>jufeg</createdBy>
+<createdTime>2019-09-08 18:54:02 UTC</createdTime>
+<generatorID>A0B5C1F3-B84E-5923-D8B3-919FBA23C281</generatorID>
+<ownerDesignName>modelo</ownerDesignName>
+<engineerTo>
+<item key="EED47A9C-CC1C-E50E-E0AF-DAE849A859D6" value="true"/>
+</engineerTo>
+<referedAttribute>31F21D99-DAE8-11C2-3FC3-073763FD13F5</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>8 CHAR</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="E2628DB0-0D7E-3628-369D-830FA66E0549" name="FeatureByCategory PK">
+<createdBy>jufeg</createdBy>
+<createdTime>2019-09-08 18:53:26 UTC</createdTime>
+<ownerDesignName>modelo</ownerDesignName>
+<engineerTo>
+<item key="EED47A9C-CC1C-E50E-E0AF-DAE849A859D6" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>3CEE4D73-5BF8-4B5D-0153-5DC1DB013FC6</attributeRef>
+<attributeRef>73DA8650-417E-8C08-FD88-0E5484441698</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

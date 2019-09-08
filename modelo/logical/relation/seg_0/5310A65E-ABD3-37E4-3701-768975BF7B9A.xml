@@ -1,0 +1,22 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Relation_User_Publication" directorySegmentName="seg_0" id="5310A65E-ABD3-37E4-3701-768975BF7B9A">
+<createdBy>jufeg</createdBy>
+<createdTime>2019-09-07 18:30:02 UTC</createdTime>
+<notes><![CDATA[Relación]]></notes>
+<ownerDesignName>modelo</ownerDesignName>
+<engineerTo>
+<item key="EED47A9C-CC1C-E50E-E0AF-DAE849A859D6" value="true"/>
+</engineerTo>
+<sourcePk>918563B7-A8D6-65C0-84F8-7919E6B9289F</sourcePk>
+<identifying>true</identifying>
+<nameOnSource>Posts</nameOnSource>
+<nameOnTarget>Is done by</nameOnTarget>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>A23CB17B-25B6-4040-A32A-5BE097A0EAA0</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>D4E6D799-4FB7-7494-60B9-8EAD06684246</targetEntity>
+<transferable>true</transferable>
+<deleteRule>CASCADE</deleteRule>
+</Relation>

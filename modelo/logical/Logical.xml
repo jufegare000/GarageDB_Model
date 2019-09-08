@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<LogicalDesign class="oracle.dbtools.crest.model.design.logical.LogicalDesign" name="Logical" id="969E8017-C062-69BD-7B1E-24ED0CF658FD" mainViewID="BA8F278A-FD41-4AFC-FFA4-538A73F4F22F">
+<createdBy>jufeg</createdBy>
+<createdTime>2019-09-07 17:32:54 UTC</createdTime>
+<ownerDesignName>modelo</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</LogicalDesign>

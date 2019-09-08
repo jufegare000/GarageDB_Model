@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<ProcessModel class="oracle.dbtools.crest.model.design.process.ProcessModel" name="Process Model" id="976623B3-A327-C8D3-1143-04E026E9F738">
+<createdBy>jufeg</createdBy>
+<createdTime>2019-09-07 17:32:55 UTC</createdTime>
+<ownerDesignName>modelo</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</ProcessModel>

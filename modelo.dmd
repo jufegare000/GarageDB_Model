@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="modelo" id="861AA7A8-5637-A434-A42E-9B8A14529F8F" version="3.5">
+<createdBy>jufeg</createdBy>
+<createdTime>2019-09-07 17:32:54 UTC</createdTime>
+<ownerDesignName>modelo</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>861AA7A8-5637-A434-A42E-9B8A14529F8F</designId>
+</OSDM_Design>
