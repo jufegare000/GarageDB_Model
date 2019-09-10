@@ -1,0 +1,152 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="B67FB09E-CD4D-7DAC-15A4-5881C9539E93" name="ProductByUser">
+<createdBy>jufeg</createdBy>
+<createdTime>2019-09-10 13:19:11 UTC</createdTime>
+<ownerDesignName>modelo</ownerDesignName>
+<engineerTo>
+<item key="EED47A9C-CC1C-E50E-E0AF-DAE849A859D6" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="shiping_cost" id="866F1487-B140-6B4C-6919-58803F877C25">
+<createdBy>jufeg</createdBy>
+<createdTime>2019-09-10 13:19:19 UTC</createdTime>
+<commentInRDBMS><![CDATA[Este campo almacena el costo de envío del producto dependiendo de la ubicación en la que se encuentra el comprador.]]></commentInRDBMS>
+<ownerDesignName>modelo</ownerDesignName>
+<engineerTo>
+<item key="EED47A9C-CC1C-E50E-E0AF-DAE849A859D6" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_product" id="7984BC66-378D-9607-DA8A-8DD153C3FE8A">
+<createdBy>jufeg</createdBy>
+<createdTime>2019-09-10 13:21:08 UTC</createdTime>
+<generatorID>2CC63C78-0E14-BDA5-7C80-E9B5CF0AA924</generatorID>
+<ownerDesignName>modelo</ownerDesignName>
+<engineerTo>
+<item key="EED47A9C-CC1C-E50E-E0AF-DAE849A859D6" value="true"/>
+</engineerTo>
+<referedAttribute>8A970440-00BB-01A3-89BD-6EE77A5A8DBA</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_publication" id="A4D1A598-929E-293B-5675-C025DADF65F4">
+<createdBy>jufeg</createdBy>
+<createdTime>2019-09-10 13:21:08 UTC</createdTime>
+<generatorID>2CC63C78-0E14-BDA5-7C80-E9B5CF0AA924</generatorID>
+<ownerDesignName>modelo</ownerDesignName>
+<engineerTo>
+<item key="EED47A9C-CC1C-E50E-E0AF-DAE849A859D6" value="true"/>
+</engineerTo>
+<referedAttribute>C1B26266-DB64-7578-FDAA-EC645DD7D7FF</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_user" id="A6409DB6-8918-1382-D68F-EDFDED3FEAD6">
+<createdBy>jufeg</createdBy>
+<createdTime>2019-09-10 13:21:08 UTC</createdTime>
+<generatorID>2CC63C78-0E14-BDA5-7C80-E9B5CF0AA924</generatorID>
+<ownerDesignName>modelo</ownerDesignName>
+<engineerTo>
+<item key="EED47A9C-CC1C-E50E-E0AF-DAE849A859D6" value="true"/>
+</engineerTo>
+<referedAttribute>C2DDFEA8-5311-81B3-7B67-8D9CC00FA22F</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cell_phone" id="AFAD8C92-1C1F-53DA-CC61-51B61DF980A1">
+<createdBy>jufeg</createdBy>
+<createdTime>2019-09-10 13:21:08 UTC</createdTime>
+<generatorID>2CC63C78-0E14-BDA5-7C80-E9B5CF0AA924</generatorID>
+<ownerDesignName>modelo</ownerDesignName>
+<engineerTo>
+<item key="EED47A9C-CC1C-E50E-E0AF-DAE849A859D6" value="true"/>
+</engineerTo>
+<referedAttribute>4619E632-4D58-2394-DECD-68D301CB046A</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>25 CHAR</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_user1" id="77BB5856-2CD0-F60E-403E-F9042193311D">
+<createdBy>jufeg</createdBy>
+<createdTime>2019-09-10 13:23:01 UTC</createdTime>
+<generatorID>30F1EDF1-E44B-B6EA-A498-B5D9F628D1FF</generatorID>
+<ownerDesignName>modelo</ownerDesignName>
+<engineerTo>
+<item key="EED47A9C-CC1C-E50E-E0AF-DAE849A859D6" value="true"/>
+</engineerTo>
+<referedAttribute>AFD64C8A-8039-87D5-084B-116BAE28CF97</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cell_phone1" id="82A763EB-519C-0091-5071-EF6101FA8EBB">
+<createdBy>jufeg</createdBy>
+<createdTime>2019-09-10 13:23:01 UTC</createdTime>
+<generatorID>30F1EDF1-E44B-B6EA-A498-B5D9F628D1FF</generatorID>
+<ownerDesignName>modelo</ownerDesignName>
+<engineerTo>
+<item key="EED47A9C-CC1C-E50E-E0AF-DAE849A859D6" value="true"/>
+</engineerTo>
+<referedAttribute>69A1F790-6FC7-ABAE-A426-0BC2E72BD2CD</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>25 CHAR</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="purchase_number" id="2DB2F25E-AD9A-53C2-1A46-6F3522F36CFC">
+<createdBy>jufeg</createdBy>
+<createdTime>2019-09-10 13:35:56 UTC</createdTime>
+<generatorID>42F650B8-33B5-AE6B-2A17-4862C3041BA5</generatorID>
+<ownerDesignName>modelo</ownerDesignName>
+<engineerTo>
+<item key="EED47A9C-CC1C-E50E-E0AF-DAE849A859D6" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>2F4215B7-E017-F3A6-3692-3884D8E29FAE</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="80819ED9-2DEC-0D43-55C9-141BB4054A11" name="ProductByUser PK">
+<createdBy>jufeg</createdBy>
+<createdTime>2019-09-10 13:22:56 UTC</createdTime>
+<ownerDesignName>modelo</ownerDesignName>
+<engineerTo>
+<item key="EED47A9C-CC1C-E50E-E0AF-DAE849A859D6" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>7984BC66-378D-9607-DA8A-8DD153C3FE8A</attributeRef>
+<attributeRef>A4D1A598-929E-293B-5675-C025DADF65F4</attributeRef>
+<attributeRef>A6409DB6-8918-1382-D68F-EDFDED3FEAD6</attributeRef>
+<attributeRef>AFAD8C92-1C1F-53DA-CC61-51B61DF980A1</attributeRef>
+<attributeRef>77BB5856-2CD0-F60E-403E-F9042193311D</attributeRef>
+<attributeRef>82A763EB-519C-0091-5071-EF6101FA8EBB</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

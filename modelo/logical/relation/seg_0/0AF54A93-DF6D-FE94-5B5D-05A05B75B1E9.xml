@@ -1,0 +1,21 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Relation_Purchase_Transport" directorySegmentName="seg_0" id="0AF54A93-DF6D-FE94-5B5D-05A05B75B1E9">
+<createdBy>jufeg</createdBy>
+<createdTime>2019-09-10 13:57:16 UTC</createdTime>
+<ownerDesignName>modelo</ownerDesignName>
+<engineerTo>
+<item key="EED47A9C-CC1C-E50E-E0AF-DAE849A859D6" value="true"/>
+</engineerTo>
+<sourcePk>A4DEA084-8BB3-098B-C876-F9C8A24174BF</sourcePk>
+<identifying>false</identifying>
+<nameOnSource>Generates</nameOnSource>
+<nameOnTarget>Corresponds</nameOnTarget>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>7ABD9A18-7C24-6FEE-F983-9873D98EF53F</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>B919D28C-4BAA-4F9C-3B1E-3FF8B33F3144</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>
