@@ -71,6 +71,20 @@
 <logicalDatatype>LOGDT019</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
+<Attribute name="id_courier" id="516A8B54-5AB2-600E-F338-F29EFC188B20">
+<createdBy>jufeg</createdBy>
+<createdTime>2019-09-10 14:03:30 UTC</createdTime>
+<generatorID>1FAD3FCB-97BC-8374-ACFA-7E1FC9439CED</generatorID>
+<ownerDesignName>modelo</ownerDesignName>
+<engineerTo>
+<item key="EED47A9C-CC1C-E50E-E0AF-DAE849A859D6" value="true"/>
+</engineerTo>
+<referedAttribute>309974D2-5444-8ED1-C536-3D206E77E60C</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
 <identifier id="71883DE7-89A0-5AA9-3282-F57CDFC03E58" name="TransportOrder PK">

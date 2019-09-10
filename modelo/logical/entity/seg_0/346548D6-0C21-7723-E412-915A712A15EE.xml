@@ -1,7 +1,7 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="7ABD9A18-7C24-6FEE-F983-9873D98EF53F" name="PurchaseOrder">
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="346548D6-0C21-7723-E412-915A712A15EE" name="Review">
 <createdBy>jufeg</createdBy>
-<createdTime>2019-09-10 13:27:50 UTC</createdTime>
+<createdTime>2019-09-10 14:17:22 UTC</createdTime>
 <ownerDesignName>modelo</ownerDesignName>
 <engineerTo>
 <item key="EED47A9C-CC1C-E50E-E0AF-DAE849A859D6" value="true"/>
@@ -15,10 +15,10 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="purchase_number" id="2F4215B7-E017-F3A6-3692-3884D8E29FAE">
+<Attribute name="id_review" id="1EECFD31-B578-E094-A849-7799DAAF5F7A">
 <createdBy>jufeg</createdBy>
-<createdTime>2019-09-10 13:28:52 UTC</createdTime>
-<commentInRDBMS><![CDATA[Número de compra: éste es retornado por la pasera de pago]]></commentInRDBMS>
+<createdTime>2019-09-10 14:17:26 UTC</createdTime>
+<commentInRDBMS><![CDATA[Id único y consecutivo para identificar reviews]]></commentInRDBMS>
 <ownerDesignName>modelo</ownerDesignName>
 <engineerTo>
 <item key="EED47A9C-CC1C-E50E-E0AF-DAE849A859D6" value="true"/>
@@ -28,41 +28,41 @@
 <logicalDatatype>LOGDT019</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="payment_value" id="0A5569AD-06E7-95D7-AA9C-7D9CC6E43EFA">
+<Attribute name="comment" id="7DA7D62E-7339-ECB5-56B5-544F14C8F24D">
 <createdBy>jufeg</createdBy>
-<createdTime>2019-09-10 14:30:56 UTC</createdTime>
-<commentInRDBMS><![CDATA[Valor a pagar por el usuario comprador]]></commentInRDBMS>
+<createdTime>2019-09-10 14:17:59 UTC</createdTime>
+<commentInRDBMS><![CDATA[Comentario que deja el comprador una vez es entregado su producto]]></commentInRDBMS>
 <ownerDesignName>modelo</ownerDesignName>
 <engineerTo>
 <item key="EED47A9C-CC1C-E50E-E0AF-DAE849A859D6" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT019</logicalDatatype>
+<logicalDatatype>LogDes-1768A872-F385-FDBA-D95E-0CB63F5908E2@LOGDT10045</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="payment_date" id="535957EF-CD3C-CB29-4B17-4ED4295B7009">
+<Attribute name="date_coment" id="4ADDFA29-8557-56E5-7BF3-49D051B52E59">
 <createdBy>jufeg</createdBy>
-<createdTime>2019-09-10 14:30:56 UTC</createdTime>
-<commentInRDBMS><![CDATA[Fecha en la que fue efectuado el pago de los productos.]]></commentInRDBMS>
+<createdTime>2019-09-10 14:20:04 UTC</createdTime>
+<commentInRDBMS><![CDATA[Fecha en la que se hizo el comentario]]></commentInRDBMS>
 <ownerDesignName>modelo</ownerDesignName>
 <engineerTo>
 <item key="EED47A9C-CC1C-E50E-E0AF-DAE849A859D6" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT007</logicalDatatype>
+<logicalDatatype>LOGDT008</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="id_review" id="C9EFB221-6D59-A4F4-4448-B0686610DEDF">
+<Attribute name="id_courier" id="ACB365CB-6012-59FA-6AFB-4C2D04280E1F">
 <createdBy>jufeg</createdBy>
-<createdTime>2019-09-10 14:32:11 UTC</createdTime>
-<generatorID>09DA8453-9B82-B11D-7523-6ED188DABEDB</generatorID>
+<createdTime>2019-09-10 14:22:25 UTC</createdTime>
+<generatorID>31968C82-A5EA-79D2-8846-9D7A5E311FFB</generatorID>
 <ownerDesignName>modelo</ownerDesignName>
 <engineerTo>
 <item key="EED47A9C-CC1C-E50E-E0AF-DAE849A859D6" value="true"/>
 </engineerTo>
-<referedAttribute>1EECFD31-B578-E094-A849-7799DAAF5F7A</referedAttribute>
+<referedAttribute>309974D2-5444-8ED1-C536-3D206E77E60C</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
@@ -70,16 +70,16 @@
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
-<identifier id="A4DEA084-8BB3-098B-C876-F9C8A24174BF" name="PurchaseOrder PK">
+<identifier id="B3BB19A4-7E29-3088-45C4-5267C799C830" name="Review PK">
 <createdBy>jufeg</createdBy>
-<createdTime>2019-09-10 13:35:53 UTC</createdTime>
+<createdTime>2019-09-10 14:17:57 UTC</createdTime>
 <ownerDesignName>modelo</ownerDesignName>
 <engineerTo>
 <item key="EED47A9C-CC1C-E50E-E0AF-DAE849A859D6" value="true"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>
-<attributeRef>2F4215B7-E017-F3A6-3692-3884D8E29FAE</attributeRef>
+<attributeRef>1EECFD31-B578-E094-A849-7799DAAF5F7A</attributeRef>
 </usedAttributes>
 </identifier>
 </identifiers>

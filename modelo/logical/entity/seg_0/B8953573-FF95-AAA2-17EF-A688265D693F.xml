@@ -1,0 +1,143 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="B8953573-FF95-AAA2-17EF-A688265D693F" name="Vehicle">
+<createdBy>jufeg</createdBy>
+<createdTime>2019-09-10 14:06:43 UTC</createdTime>
+<ownerDesignName>modelo</ownerDesignName>
+<engineerTo>
+<item key="EED47A9C-CC1C-E50E-E0AF-DAE849A859D6" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_vehicle" id="A37FD589-8F06-C22B-0ED2-B3FA15EF6BAA">
+<createdBy>jufeg</createdBy>
+<createdTime>2019-09-10 14:06:56 UTC</createdTime>
+<commentInRDBMS><![CDATA[Id único y consecutivo para vehículos registrados en el sistema]]></commentInRDBMS>
+<ownerDesignName>modelo</ownerDesignName>
+<engineerTo>
+<item key="EED47A9C-CC1C-E50E-E0AF-DAE849A859D6" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="brand" id="27197EDB-B072-2CE2-E7E6-BA8329CB4C57">
+<createdBy>jufeg</createdBy>
+<createdTime>2019-09-10 14:08:14 UTC</createdTime>
+<commentInRDBMS><![CDATA[Marca de vehículo]]></commentInRDBMS>
+<ownerDesignName>modelo</ownerDesignName>
+<engineerTo>
+<item key="EED47A9C-CC1C-E50E-E0AF-DAE849A859D6" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 CHAR</dataTypeSize>
+<ownDataTypeParameters>100 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="license_plate" id="E95CF038-4CA0-8499-A3F5-AC2895FB291B">
+<createdBy>jufeg</createdBy>
+<createdTime>2019-09-10 14:08:35 UTC</createdTime>
+<commentInRDBMS><![CDATA[placa del vehículo]]></commentInRDBMS>
+<ownerDesignName>modelo</ownerDesignName>
+<engineerTo>
+<item key="EED47A9C-CC1C-E50E-E0AF-DAE849A859D6" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10 CHAR</dataTypeSize>
+<ownDataTypeParameters>10 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="color" id="C91CCB38-B881-8547-7DF2-EE4D35F3C8ED">
+<createdBy>jufeg</createdBy>
+<createdTime>2019-09-10 14:09:13 UTC</createdTime>
+<commentInRDBMS><![CDATA[Color de vehículo]]></commentInRDBMS>
+<ownerDesignName>modelo</ownerDesignName>
+<engineerTo>
+<item key="EED47A9C-CC1C-E50E-E0AF-DAE849A859D6" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 CHAR</dataTypeSize>
+<ownDataTypeParameters>100 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="kilometer_per_transport" id="54FD2B77-25E9-FF50-4DED-0B688C81DB0B">
+<createdBy>jufeg</createdBy>
+<createdTime>2019-09-10 14:10:01 UTC</createdTime>
+<commentInRDBMS><![CDATA[Precio que cuesta cada kilómetro de transporte por el vehículo]]></commentInRDBMS>
+<ownerDesignName>modelo</ownerDesignName>
+<engineerTo>
+<item key="EED47A9C-CC1C-E50E-E0AF-DAE849A859D6" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="SOAT" id="0BA838BF-4414-D688-EA94-73668F343909">
+<createdBy>jufeg</createdBy>
+<createdTime>2019-09-10 14:12:45 UTC</createdTime>
+<commentInRDBMS><![CDATA[número de seguro obligatorio]]></commentInRDBMS>
+<ownerDesignName>modelo</ownerDesignName>
+<engineerTo>
+<item key="EED47A9C-CC1C-E50E-E0AF-DAE849A859D6" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="techno_mechanic" id="3C735064-AD6F-6E9C-5EBF-0FA02F26EFE1">
+<createdBy>jufeg</createdBy>
+<createdTime>2019-09-10 14:12:54 UTC</createdTime>
+<commentInRDBMS><![CDATA[Número de tecnomecánica]]></commentInRDBMS>
+<ownerDesignName>modelo</ownerDesignName>
+<engineerTo>
+<item key="EED47A9C-CC1C-E50E-E0AF-DAE849A859D6" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 CHAR</dataTypeSize>
+<ownDataTypeParameters>100 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_courier" id="213B04E2-5BBF-97D2-910B-699C1ADE3991">
+<createdBy>jufeg</createdBy>
+<createdTime>2019-09-10 14:14:45 UTC</createdTime>
+<generatorID>C6F7E051-9B72-2639-7CB1-04603662066B</generatorID>
+<ownerDesignName>modelo</ownerDesignName>
+<engineerTo>
+<item key="EED47A9C-CC1C-E50E-E0AF-DAE849A859D6" value="true"/>
+</engineerTo>
+<referedAttribute>309974D2-5444-8ED1-C536-3D206E77E60C</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="69611448-831B-4C11-0D9D-C89C9A42B0A9" name="Vehicle PK">
+<createdBy>jufeg</createdBy>
+<createdTime>2019-09-10 14:06:59 UTC</createdTime>
+<ownerDesignName>modelo</ownerDesignName>
+<engineerTo>
+<item key="EED47A9C-CC1C-E50E-E0AF-DAE849A859D6" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>A37FD589-8F06-C22B-0ED2-B3FA15EF6BAA</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

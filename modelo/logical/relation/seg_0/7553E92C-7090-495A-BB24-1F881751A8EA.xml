@@ -1,0 +1,21 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Relation_19" directorySegmentName="seg_0" id="7553E92C-7090-495A-BB24-1F881751A8EA">
+<createdBy>jufeg</createdBy>
+<createdTime>2019-09-10 14:29:00 UTC</createdTime>
+<ownerDesignName>modelo</ownerDesignName>
+<engineerTo>
+<item key="EED47A9C-CC1C-E50E-E0AF-DAE849A859D6" value="true"/>
+</engineerTo>
+<sourcePk>918563B7-A8D6-65C0-84F8-7919E6B9289F</sourcePk>
+<identifying>true</identifying>
+<nameOnSource>Asks</nameOnSource>
+<nameOnTarget>Is created</nameOnTarget>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>A23CB17B-25B6-4040-A32A-5BE097A0EAA0</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>2025E765-4972-4F78-CFD2-6F0B930B2231</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>
