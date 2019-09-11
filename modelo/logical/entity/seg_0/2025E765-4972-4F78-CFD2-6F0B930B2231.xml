@@ -58,6 +58,7 @@
 <Attribute name="id_user" id="A573DDC6-10F2-1E1F-BED7-BF853271D40D">
 <createdBy>jufeg</createdBy>
 <createdTime>2019-09-10 14:29:00 UTC</createdTime>
+<commentInRDBMS><![CDATA[Id de usuario quien pregunta]]></commentInRDBMS>
 <generatorID>7553E92C-7090-495A-BB24-1F881751A8EA</generatorID>
 <ownerDesignName>modelo</ownerDesignName>
 <engineerTo>
@@ -72,6 +73,7 @@
 <Attribute name="cell_phone" id="4A0B46BA-A0C4-5B42-3FB1-C095DDA65CD5">
 <createdBy>jufeg</createdBy>
 <createdTime>2019-09-10 14:29:00 UTC</createdTime>
+<commentInRDBMS><![CDATA[Celular de usuario quien pregunta]]></commentInRDBMS>
 <generatorID>7553E92C-7090-495A-BB24-1F881751A8EA</generatorID>
 <ownerDesignName>modelo</ownerDesignName>
 <engineerTo>
@@ -82,7 +84,7 @@
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
 <dataTypeSize>25 CHAR</dataTypeSize>
-<ownDataTypeParameters>25 CHAR,,</ownDataTypeParameters>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="id_publication" id="90956A12-00EB-0DAB-EF29-953715254243">
 <createdBy>jufeg</createdBy>
@@ -101,6 +103,7 @@
 <Attribute name="id_user2" id="5994248C-6162-4091-66B3-DA62CBBA9563">
 <createdBy>jufeg</createdBy>
 <createdTime>2019-09-10 14:30:56 UTC</createdTime>
+<commentInRDBMS><![CDATA[id de usuario propietario de la publicación]]></commentInRDBMS>
 <generatorID>B820551F-9C9D-F5BB-4C73-2FE9470C10DD</generatorID>
 <ownerDesignName>modelo</ownerDesignName>
 <engineerTo>
@@ -115,6 +118,7 @@
 <Attribute name="cell_phone2" id="EAB57582-E36B-980A-E98E-646084BB7623">
 <createdBy>jufeg</createdBy>
 <createdTime>2019-09-10 14:32:11 UTC</createdTime>
+<commentInRDBMS><![CDATA[celular  de usuario propietario de la publicación]]></commentInRDBMS>
 <generatorID>B820551F-9C9D-F5BB-4C73-2FE9470C10DD</generatorID>
 <ownerDesignName>modelo</ownerDesignName>
 <engineerTo>
@@ -125,7 +129,7 @@
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
 <dataTypeSize>25 CHAR</dataTypeSize>
-<ownDataTypeParameters>25 CHAR,,</ownDataTypeParameters>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">

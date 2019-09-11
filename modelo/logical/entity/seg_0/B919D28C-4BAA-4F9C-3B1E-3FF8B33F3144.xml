@@ -84,6 +84,21 @@
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
 <dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_devolution" id="BF2FA8FF-F8DA-B479-F2B8-11D8C6914706">
+<createdBy>jufeg</createdBy>
+<createdTime>2019-09-11 21:19:10 UTC</createdTime>
+<generatorID>D6FB5958-91E2-17C3-9DED-F710001CAB78</generatorID>
+<ownerDesignName>modelo</ownerDesignName>
+<engineerTo>
+<item key="EED47A9C-CC1C-E50E-E0AF-DAE849A859D6" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>842A3FD1-831B-179A-E8A8-8EBBE89B230D</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 </attributes>

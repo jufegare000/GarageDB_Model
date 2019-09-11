@@ -22,7 +22,6 @@
 <engineerTo>
 <item key="EED47A9C-CC1C-E50E-E0AF-DAE849A859D6" value="true"/>
 </engineerTo>
-<nullsAllowed>true</nullsAllowed>
 <use>0</use>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
@@ -33,7 +32,6 @@
 <engineerTo>
 <item key="EED47A9C-CC1C-E50E-E0AF-DAE849A859D6" value="true"/>
 </engineerTo>
-<nullsAllowed>true</nullsAllowed>
 <use>0</use>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>

@@ -83,7 +83,7 @@
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
 <dataTypeSize>25 CHAR</dataTypeSize>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<ownDataTypeParameters>25 CHAR,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="id_user1" id="77BB5856-2CD0-F60E-403E-F9042193311D">
 <createdBy>jufeg</createdBy>
@@ -112,7 +112,7 @@
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
 <dataTypeSize>25 CHAR</dataTypeSize>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<ownDataTypeParameters>25 CHAR,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="purchase_number" id="2DB2F25E-AD9A-53C2-1A46-6F3522F36CFC">
 <createdBy>jufeg</createdBy>
