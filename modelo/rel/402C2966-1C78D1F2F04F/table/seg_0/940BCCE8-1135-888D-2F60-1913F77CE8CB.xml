@@ -1,0 +1,156 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="940BCCE8-1135-888D-2F60-1913F77CE8CB" name="TransportOrder">
+<createdBy>jufeg</createdBy>
+<createdTime>2019-09-11 21:51:55 UTC</createdTime>
+<generatorID>B919D28C-4BAA-4F9C-3B1E-3FF8B33F3144</generatorID>
+<ownerDesignName>modelo</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_transport" id="30BEC183-12EA-830E-492F-B8445B81F8E6">
+<createdBy>jufeg</createdBy>
+<createdTime>2019-09-11 21:51:55 UTC</createdTime>
+<commentInRDBMS><![CDATA[Id de las ordenes de transporte único y consecutivo]]></commentInRDBMS>
+<generatorID>EAB730BC-F995-4EAF-1619-BBB5C781B8C8</generatorID>
+<ownerDesignName>modelo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="seller_direction" id="ABC301D7-6F6C-D974-45B6-4B553A151F31">
+<createdBy>jufeg</createdBy>
+<createdTime>2019-09-11 21:51:55 UTC</createdTime>
+<commentInRDBMS><![CDATA[Dirección del vendedor, ésta puede ser la que el usuario ingresó al momento de registrarse en la plataforma o una nueva actualizada.]]></commentInRDBMS>
+<generatorID>8E37150B-E894-E5C1-28E5-1E71FE9A51C3</generatorID>
+<ownerDesignName>modelo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="buyer_location" id="2E8B5AC8-0365-C4D5-86B9-79DE7D7CCB88">
+<createdBy>jufeg</createdBy>
+<createdTime>2019-09-11 21:51:55 UTC</createdTime>
+<commentInRDBMS><![CDATA[Dirección del comprador, ésta puede ser la que el usuario ingresó al momento de registrarse en la plataforma o una nueva actualizada.]]></commentInRDBMS>
+<generatorID>5FFAF53E-A72C-966D-9F49-243527A6973B</generatorID>
+<ownerDesignName>modelo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PurchaseOrder_number" id="B2EF5CF2-9D8E-C97C-A426-96472EEDE65A">
+<createdBy>jufeg</createdBy>
+<createdTime>2019-09-11 21:51:55 UTC</createdTime>
+<generatorID>7CC1EE24-6C14-9DF7-ACDE-695D1C660E08</generatorID>
+<ownerDesignName>modelo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="68644924-B70B-2032-EB41-4828D190AD70" referredColumn="AA8E94CB-2901-C750-CE31-9EB77D3F0BD0"/>
+</associations>
+</Column>
+<Column name="Courier_license_number" id="935EB01C-6A18-9053-3376-D0BEB9BB17FF">
+<createdBy>jufeg</createdBy>
+<createdTime>2019-09-11 21:51:55 UTC</createdTime>
+<generatorID>5D8134B6-4E2C-8A4A-E8B1-9AB515ED5F7F</generatorID>
+<ownerDesignName>modelo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="2FAFF209-442E-FA6B-C248-FC2C100AF03D" referredColumn="E08E46CE-DD68-E472-6D77-145C3B2D0450"/>
+</associations>
+</Column>
+<Column name="Devolution_id_devolution" id="2CD0BEA7-48E9-7304-DF45-210D20B5F66D">
+<createdBy>jufeg</createdBy>
+<createdTime>2019-09-11 21:51:55 UTC</createdTime>
+<generatorID>BF2FA8FF-F8DA-B479-F2B8-11D8C6914706</generatorID>
+<ownerDesignName>modelo</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="DC7215D3-6757-A873-06A9-05549A6F6841" referredColumn="A2C90E67-8F12-419D-8A79-1B3F1D6ED953"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="B7327629-336C-13C8-782C-CFAFF0A6A601" name="TransportOrder_PK">
+<createdBy>jufeg</createdBy>
+<createdTime>2019-09-11 21:51:55 UTC</createdTime>
+<generatorID>71883DE7-89A0-5AA9-3282-F57CDFC03E58</generatorID>
+<ownerDesignName>modelo</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="30BEC183-12EA-830E-492F-B8445B81F8E6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="751E98D9-8899-0D11-728E-C2A7D4CB808B" name="TransportOrder__IDX">
+<createdBy>jufeg</createdBy>
+<createdTime>2019-09-11 21:51:55 UTC</createdTime>
+<ownerDesignName>modelo</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>D6FB5958-91E2-17C3-9DED-F710001CAB78</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="2CD0BEA7-48E9-7304-DF45-210D20B5F66D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="4DBD130C-EFDD-C41E-382A-5D74E0216606" name="TransportOrder_Devolution_FK">
+<createdBy>jufeg</createdBy>
+<createdTime>2019-09-11 21:51:55 UTC</createdTime>
+<generatorID>D6FB5958-91E2-17C3-9DED-F710001CAB78</generatorID>
+<ownerDesignName>modelo</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2CD0BEA7-48E9-7304-DF45-210D20B5F66D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="66A36097-868B-866A-B81C-A3C157B07DC6" name="TransportOrder_Courier_FK">
+<createdBy>jufeg</createdBy>
+<createdTime>2019-09-11 21:51:55 UTC</createdTime>
+<generatorID>1FAD3FCB-97BC-8374-ACFA-7E1FC9439CED</generatorID>
+<ownerDesignName>modelo</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="935EB01C-6A18-9053-3376-D0BEB9BB17FF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F0AC43AD-21D6-B7EF-B7BA-617DE37AE7A3" name="TrnspOrd_PrchOrd_FK">
+<createdBy>jufeg</createdBy>
+<createdTime>2019-09-11 21:51:55 UTC</createdTime>
+<generatorID>0AF54A93-DF6D-FE94-5B5D-05A05B75B1E9</generatorID>
+<ownerDesignName>modelo</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B2EF5CF2-9D8E-C97C-A426-96472EEDE65A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

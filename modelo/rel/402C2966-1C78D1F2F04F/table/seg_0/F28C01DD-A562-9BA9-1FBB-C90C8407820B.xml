@@ -1,0 +1,94 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="F28C01DD-A562-9BA9-1FBB-C90C8407820B" name="Courier">
+<createdBy>jufeg</createdBy>
+<createdTime>2019-09-11 21:51:55 UTC</createdTime>
+<generatorID>781686D1-A7A2-6A97-6004-0B52BBB2FCAB</generatorID>
+<ownerDesignName>modelo</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_user" id="EF9D9F56-81BA-DFCD-1F1B-A6DEC441BAF2">
+<createdBy>jufeg</createdBy>
+<createdTime>2019-09-11 21:51:55 UTC</createdTime>
+<commentInRDBMS><![CDATA[Identificador único, consecutivo e interno (para la base de datos) de cada usuario creado en el sistema.]]></commentInRDBMS>
+<generatorID>AFD64C8A-8039-87D5-084B-116BAE28CF97</generatorID>
+<ownerDesignName>modelo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="0956A545-2088-2EC3-A6CB-48EDBFF666AB" referredColumn="E38ACFE6-13C2-F0A6-2572-2F92F56DD9F4"/>
+</associations>
+</Column>
+<Column name="cell_phone" id="65BDC5B8-D718-7B18-8EE4-06051D31380D">
+<createdBy>jufeg</createdBy>
+<createdTime>2019-09-11 21:51:55 UTC</createdTime>
+<commentInRDBMS><![CDATA[Número de celular con el cual el usuario se registra]]></commentInRDBMS>
+<generatorID>69A1F790-6FC7-ABAE-A426-0BC2E72BD2CD</generatorID>
+<ownerDesignName>modelo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>25 CHAR</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="0956A545-2088-2EC3-A6CB-48EDBFF666AB" referredColumn="82B84BEA-CBCC-E910-99B2-1EF18DDD1C5A"/>
+</associations>
+</Column>
+<Column name="license_number" id="E08E46CE-DD68-E472-6D77-145C3B2D0450">
+<createdBy>jufeg</createdBy>
+<createdTime>2019-09-11 21:51:55 UTC</createdTime>
+<commentInRDBMS><![CDATA[Número de licencia de conducción]]></commentInRDBMS>
+<generatorID>2804406A-76E2-A516-BAD0-F3C0E3A002AA</generatorID>
+<ownerDesignName>modelo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="C56E7394-EE5B-FF1E-88CA-03DBB837DE84" name="Courier_PK">
+<createdBy>jufeg</createdBy>
+<createdTime>2019-09-11 21:51:55 UTC</createdTime>
+<generatorID>918563B7-A8D6-65C0-84F8-7919E6B9289F</generatorID>
+<ownerDesignName>modelo</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="EF9D9F56-81BA-DFCD-1F1B-A6DEC441BAF2"/>
+<colUsage columnID="65BDC5B8-D718-7B18-8EE4-06051D31380D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="27952AAF-C6A3-580C-24FD-5E512153F335" name="Courier_PKv1">
+<createdBy>jufeg</createdBy>
+<createdTime>2019-09-11 21:51:55 UTC</createdTime>
+<generatorID>AA3EA542-1897-C5DE-021E-1B30731129AA</generatorID>
+<ownerDesignName>modelo</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E08E46CE-DD68-E472-6D77-145C3B2D0450"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="6B0F8CBF-BE7A-9D38-FFA8-802FB1793A5C" name="Courier_User_FK">
+<createdBy>jufeg</createdBy>
+<createdTime>2019-09-11 21:51:55 UTC</createdTime>
+<generatorID>1608D75D-55CE-D7BF-D494-74B987AA328F</generatorID>
+<ownerDesignName>modelo</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="EF9D9F56-81BA-DFCD-1F1B-A6DEC441BAF2"/>
+<colUsage columnID="65BDC5B8-D718-7B18-8EE4-06051D31380D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

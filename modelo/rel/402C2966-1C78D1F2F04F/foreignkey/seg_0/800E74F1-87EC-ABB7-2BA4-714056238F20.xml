@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="800E74F1-87EC-ABB7-2BA4-714056238F20" containerWithKeyObject="6393B913-224A-7698-D68E-EE4DA315F78B" localFKIndex="43954B23-B9B7-39DE-B466-B649ED3CF1BA" name="Devolution_ProductByUser_FK">
+<createdBy>jufeg</createdBy>
+<createdTime>2019-09-11 21:51:55 UTC</createdTime>
+<generatorID>4F170A7F-EECE-50FA-FD3F-4D38EF3B20DE</generatorID>
+<ownerDesignName>modelo</ownerDesignName>
+<referredTableLongName>ProductByUser</referredTableLongName>
+<deleteRule>CASCADE</deleteRule>
+<referredTableID>948E05D4-28BA-4A50-8293-466BBB5D0F54</referredTableID>
+<keyObject>E9D7C539-393E-ADD0-8290-D959B491AD30</keyObject>
+<referredKeyID>E9D7C539-393E-ADD0-8290-D959B491AD30</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>Product_id_product,Product_id_publication,Product_id_user,Product_cell_phone,User_id_user,User_cell_phone</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

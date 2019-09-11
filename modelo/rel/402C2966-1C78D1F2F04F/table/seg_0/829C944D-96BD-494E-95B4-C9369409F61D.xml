@@ -1,0 +1,173 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="829C944D-96BD-494E-95B4-C9369409F61D" name="Questions">
+<createdBy>jufeg</createdBy>
+<createdTime>2019-09-11 21:51:55 UTC</createdTime>
+<generatorID>2025E765-4972-4F78-CFD2-6F0B930B2231</generatorID>
+<ownerDesignName>modelo</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="question_date" id="0193275E-FD06-F591-6334-00A1A8F13918">
+<createdBy>jufeg</createdBy>
+<createdTime>2019-09-11 21:51:55 UTC</createdTime>
+<commentInRDBMS><![CDATA[Fecha en la que se hace la pregunta]]></commentInRDBMS>
+<generatorID>469C5A5E-1903-199E-729B-4E38FE5D8802</generatorID>
+<ownerDesignName>modelo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="detail" id="B6B1A1C9-D2FB-A0E1-8E26-EF2244CC5891">
+<createdBy>jufeg</createdBy>
+<createdTime>2019-09-11 21:51:55 UTC</createdTime>
+<commentInRDBMS><![CDATA[Pregunta que se hace sobre la publicación al vendedor]]></commentInRDBMS>
+<generatorID>02570591-5433-EF9F-B41C-29CABFC45F0E</generatorID>
+<ownerDesignName>modelo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LogDes-1768A872-F385-FDBA-D95E-0CB63F5908E2@LOGDT10045</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Response" id="92214C1A-02AA-0993-2E83-283ED5AE1E56">
+<createdBy>jufeg</createdBy>
+<createdTime>2019-09-11 21:51:55 UTC</createdTime>
+<commentInRDBMS><![CDATA[Respuesta del vendedor sobre la pregunta]]></commentInRDBMS>
+<generatorID>83E8C415-819A-663F-2A35-A737B0680060</generatorID>
+<ownerDesignName>modelo</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LogDes-1768A872-F385-FDBA-D95E-0CB63F5908E2@LOGDT10045</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="User_id_user" id="13BDD152-1A5D-9085-EBF8-57B27794135F">
+<createdBy>jufeg</createdBy>
+<createdTime>2019-09-11 21:51:55 UTC</createdTime>
+<commentInRDBMS><![CDATA[Id de usuario quien pregunta]]></commentInRDBMS>
+<generatorID>A573DDC6-10F2-1E1F-BED7-BF853271D40D</generatorID>
+<ownerDesignName>modelo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="2D909044-6E55-AD73-2A3B-A22CED07E53D" referredColumn="E38ACFE6-13C2-F0A6-2572-2F92F56DD9F4"/>
+</associations>
+</Column>
+<Column name="User_cell_phone" id="01FBA583-BF6B-E70C-7E28-FD35BB54296D">
+<createdBy>jufeg</createdBy>
+<createdTime>2019-09-11 21:51:55 UTC</createdTime>
+<commentInRDBMS><![CDATA[Celular de usuario quien pregunta]]></commentInRDBMS>
+<generatorID>4A0B46BA-A0C4-5B42-3FB1-C095DDA65CD5</generatorID>
+<ownerDesignName>modelo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>25 CHAR</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="2D909044-6E55-AD73-2A3B-A22CED07E53D" referredColumn="82B84BEA-CBCC-E910-99B2-1EF18DDD1C5A"/>
+</associations>
+</Column>
+<Column name="Publication_id_publication" id="E22C9E7B-2B67-34D3-A8D2-B5EC9B272DAA">
+<createdBy>jufeg</createdBy>
+<createdTime>2019-09-11 21:51:55 UTC</createdTime>
+<generatorID>90956A12-00EB-0DAB-EF29-953715254243</generatorID>
+<ownerDesignName>modelo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="03943EB6-69BC-4040-D285-463F982CECD2" referredColumn="BA370804-220C-A30A-CEF2-A5665559A918"/>
+</associations>
+</Column>
+<Column name="Publication_id_user" id="C5A1672E-9602-CC71-C9E3-3A0642631343">
+<createdBy>jufeg</createdBy>
+<createdTime>2019-09-11 21:51:55 UTC</createdTime>
+<commentInRDBMS><![CDATA[id de usuario propietario de la publicación]]></commentInRDBMS>
+<generatorID>5994248C-6162-4091-66B3-DA62CBBA9563</generatorID>
+<ownerDesignName>modelo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="03943EB6-69BC-4040-D285-463F982CECD2" referredColumn="48D8F858-1AFF-67A9-DB6F-0624F28BE37C"/>
+</associations>
+</Column>
+<Column name="Publication_cell_phone" id="19C30FD6-2DEF-3E48-121A-78823238D8D4">
+<createdBy>jufeg</createdBy>
+<createdTime>2019-09-11 21:51:55 UTC</createdTime>
+<commentInRDBMS><![CDATA[celular  de usuario propietario de la publicación]]></commentInRDBMS>
+<generatorID>EAB57582-E36B-980A-E98E-646084BB7623</generatorID>
+<ownerDesignName>modelo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>25 CHAR</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="03943EB6-69BC-4040-D285-463F982CECD2" referredColumn="581CBBCA-0E0D-3407-426F-B8FA2F4546BE"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="756E7C53-994B-2B68-5C26-36D1BBB6324F" name="Questions_PK">
+<createdBy>jufeg</createdBy>
+<createdTime>2019-09-11 21:51:55 UTC</createdTime>
+<generatorID>127848FD-0F06-7836-DB41-F8E54E418609</generatorID>
+<ownerDesignName>modelo</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="13BDD152-1A5D-9085-EBF8-57B27794135F"/>
+<colUsage columnID="01FBA583-BF6B-E70C-7E28-FD35BB54296D"/>
+<colUsage columnID="E22C9E7B-2B67-34D3-A8D2-B5EC9B272DAA"/>
+<colUsage columnID="C5A1672E-9602-CC71-C9E3-3A0642631343"/>
+<colUsage columnID="19C30FD6-2DEF-3E48-121A-78823238D8D4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B2A60BE5-9583-D41E-F5C3-B3B0CA7A6143" name="Questions_User_FK">
+<createdBy>jufeg</createdBy>
+<createdTime>2019-09-11 21:51:55 UTC</createdTime>
+<generatorID>7553E92C-7090-495A-BB24-1F881751A8EA</generatorID>
+<ownerDesignName>modelo</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="13BDD152-1A5D-9085-EBF8-57B27794135F"/>
+<colUsage columnID="01FBA583-BF6B-E70C-7E28-FD35BB54296D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="74556EF4-A7EF-9ACF-E412-4C0DAA8F9F3E" name="Questions_Publication_FK">
+<createdBy>jufeg</createdBy>
+<createdTime>2019-09-11 21:51:55 UTC</createdTime>
+<generatorID>B820551F-9C9D-F5BB-4C73-2FE9470C10DD</generatorID>
+<ownerDesignName>modelo</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E22C9E7B-2B67-34D3-A8D2-B5EC9B272DAA"/>
+<colUsage columnID="C5A1672E-9602-CC71-C9E3-3A0642631343"/>
+<colUsage columnID="19C30FD6-2DEF-3E48-121A-78823238D8D4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

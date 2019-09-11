@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="3C425CBD-9A0A-FA1C-A254-C14587255BEB" containerWithKeyObject="82613B4F-7577-0BD0-581E-C81014A35A12" localFKIndex="0FB661A3-E674-A70A-A781-CC62B72F70FA" name="Review_PurchaseOrder_FK">
+<createdBy>jufeg</createdBy>
+<createdTime>2019-09-11 21:51:55 UTC</createdTime>
+<generatorID>09DA8453-9B82-B11D-7523-6ED188DABEDB</generatorID>
+<ownerDesignName>modelo</ownerDesignName>
+<referredTableLongName>PurchaseOrder</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>276128D4-E1E5-8EEA-9F10-79BA8A6FCA09</referredTableID>
+<keyObject>E9DAD975-DDB1-81D6-1BC9-4494373905E3</keyObject>
+<referredKeyID>E9DAD975-DDB1-81D6-1BC9-4494373905E3</referredKeyID>
+<mandatory>false</mandatory>
+<refColNames>purchase_number</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

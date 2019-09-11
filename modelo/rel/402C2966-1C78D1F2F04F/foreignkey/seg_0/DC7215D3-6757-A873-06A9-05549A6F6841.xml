@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="DC7215D3-6757-A873-06A9-05549A6F6841" containerWithKeyObject="940BCCE8-1135-888D-2F60-1913F77CE8CB" localFKIndex="4DBD130C-EFDD-C41E-382A-5D74E0216606" name="TransportOrder_Devolution_FK">
+<createdBy>jufeg</createdBy>
+<createdTime>2019-09-11 21:51:55 UTC</createdTime>
+<generatorID>D6FB5958-91E2-17C3-9DED-F710001CAB78</generatorID>
+<ownerDesignName>modelo</ownerDesignName>
+<referredTableLongName>Devolution</referredTableLongName>
+<deleteRule>CASCADE</deleteRule>
+<referredTableID>6393B913-224A-7698-D68E-EE4DA315F78B</referredTableID>
+<keyObject>300AEFC0-86AA-11F1-C595-99231E5743FE</keyObject>
+<referredKeyID>300AEFC0-86AA-11F1-C595-99231E5743FE</referredKeyID>
+<mandatory>false</mandatory>
+<refColNames>id_devolution</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

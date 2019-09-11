@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="0956A545-2088-2EC3-A6CB-48EDBFF666AB" containerWithKeyObject="F28C01DD-A562-9BA9-1FBB-C90C8407820B" localFKIndex="6B0F8CBF-BE7A-9D38-FFA8-802FB1793A5C" name="Courier_User_FK">
+<createdBy>jufeg</createdBy>
+<createdTime>2019-09-11 21:51:55 UTC</createdTime>
+<generatorID>1608D75D-55CE-D7BF-D494-74B987AA328F</generatorID>
+<ownerDesignName>modelo</ownerDesignName>
+<referredTableLongName>User</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>20F503C5-6143-9539-6ABA-C66C1866EBA5</referredTableID>
+<keyObject>27BF1CD0-6866-D4B8-F45E-6966B2E19FA7</keyObject>
+<referredKeyID>27BF1CD0-6866-D4B8-F45E-6966B2E19FA7</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id_user,cell_phone</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

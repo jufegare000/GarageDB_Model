@@ -1,10 +1,10 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Relation_Purchase_Transport" directorySegmentName="seg_0" id="0AF54A93-DF6D-FE94-5B5D-05A05B75B1E9">
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Relation_Prc_Trp" directorySegmentName="seg_0" id="0AF54A93-DF6D-FE94-5B5D-05A05B75B1E9">
 <createdBy>jufeg</createdBy>
 <createdTime>2019-09-10 13:57:16 UTC</createdTime>
 <ownerDesignName>modelo</ownerDesignName>
 <engineerTo>
-<item key="EED47A9C-CC1C-E50E-E0AF-DAE849A859D6" value="true"/>
+<item key="AC5FA8CD-F6BE-E4D2-E659-26D63CBB5084" value="true"/>
 </engineerTo>
 <sourcePk>A4DEA084-8BB3-098B-C876-F9C8A24174BF</sourcePk>
 <identifying>false</identifying>

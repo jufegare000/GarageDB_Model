@@ -1,0 +1,189 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="EF8258B1-EE01-B57E-6D24-18179F5A5BB9" name="Product">
+<createdBy>jufeg</createdBy>
+<createdTime>2019-09-11 21:51:55 UTC</createdTime>
+<generatorID>85EAE289-18B6-703D-3A70-D75C5CE5EAFF</generatorID>
+<ownerDesignName>modelo</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_product" id="4E3F40A3-6D61-62A9-DC0D-8F3429D2766D">
+<createdBy>jufeg</createdBy>
+<createdTime>2019-09-11 21:51:55 UTC</createdTime>
+<commentInRDBMS><![CDATA[Identificador único, consecutivo e interno (para la base de datos) de cada producto creada en el sistema.]]></commentInRDBMS>
+<generatorID>8A970440-00BB-01A3-89BD-6EE77A5A8DBA</generatorID>
+<ownerDesignName>modelo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="price" id="DE76102E-203A-F966-70E7-C2691BFAAA74">
+<createdBy>jufeg</createdBy>
+<createdTime>2019-09-11 21:51:55 UTC</createdTime>
+<commentInRDBMS><![CDATA[Precio del producto en el producto]]></commentInRDBMS>
+<generatorID>42E5BC65-77F1-EBCF-EEBE-8BB70C18A080</generatorID>
+<ownerDesignName>modelo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="name" id="A8C8DF7D-4F2B-9E27-607C-64796E0DAE11">
+<createdBy>jufeg</createdBy>
+<createdTime>2019-09-11 21:51:55 UTC</createdTime>
+<commentInRDBMS><![CDATA[Nombre de la publicación limitada a 25 caracteres ]]></commentInRDBMS>
+<generatorID>052AFEAD-2660-2D9F-E56A-196BB92CE064</generatorID>
+<ownerDesignName>modelo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="description" id="9C17CCFD-100F-12BA-44F8-F66687293CF8">
+<createdBy>jufeg</createdBy>
+<createdTime>2019-09-11 21:51:55 UTC</createdTime>
+<commentInRDBMS><![CDATA[Descripción detallada sobre el producto.]]></commentInRDBMS>
+<generatorID>E85518AB-3E49-055D-C2D1-06CBDC04D60E</generatorID>
+<ownerDesignName>modelo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>1000 CHAR</dataTypeSize>
+<ownDataTypeParameters>1000 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="updated_at" id="C29649AA-A448-603B-AEE7-C77333B0FDE9">
+<createdBy>jufeg</createdBy>
+<createdTime>2019-09-11 21:51:55 UTC</createdTime>
+<commentInRDBMS><![CDATA[Fecha de actualización de la publicación.]]></commentInRDBMS>
+<generatorID>C36ADF4B-00B5-716C-D2CB-CF00E77CB51B</generatorID>
+<ownerDesignName>modelo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="quantity" id="FEAC2E1C-CE32-1936-A121-6057BE540303">
+<createdBy>jufeg</createdBy>
+<createdTime>2019-09-11 21:51:55 UTC</createdTime>
+<commentInRDBMS><![CDATA[Cantidad disponible de productos para vender.]]></commentInRDBMS>
+<generatorID>C4B63A4D-87CF-D214-FDD0-D8ECAAAA5EE3</generatorID>
+<ownerDesignName>modelo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Publication_id_publication" id="0883CBC0-3DA4-BF0E-F99C-B873564FE4EC">
+<createdBy>jufeg</createdBy>
+<createdTime>2019-09-11 21:51:55 UTC</createdTime>
+<generatorID>C1B26266-DB64-7578-FDAA-EC645DD7D7FF</generatorID>
+<ownerDesignName>modelo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="F387FA0F-6FB1-5BF1-5F02-B68FEE6E3C3B" referredColumn="BA370804-220C-A30A-CEF2-A5665559A918"/>
+</associations>
+</Column>
+<Column name="Publication_id_user" id="E42D1E2F-08AA-2E15-F81B-7A471E3651F8">
+<createdBy>jufeg</createdBy>
+<createdTime>2019-09-11 21:51:55 UTC</createdTime>
+<generatorID>C2DDFEA8-5311-81B3-7B67-8D9CC00FA22F</generatorID>
+<ownerDesignName>modelo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="F387FA0F-6FB1-5BF1-5F02-B68FEE6E3C3B" referredColumn="48D8F858-1AFF-67A9-DB6F-0624F28BE37C"/>
+</associations>
+</Column>
+<Column name="Publication_cell_phone" id="02D4EEC0-EAB2-97D8-80E3-A2EE0978AEFD">
+<createdBy>jufeg</createdBy>
+<createdTime>2019-09-11 21:51:55 UTC</createdTime>
+<generatorID>4619E632-4D58-2394-DECD-68D301CB046A</generatorID>
+<ownerDesignName>modelo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>25 CHAR</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="F387FA0F-6FB1-5BF1-5F02-B68FEE6E3C3B" referredColumn="581CBBCA-0E0D-3407-426F-B8FA2F4546BE"/>
+</associations>
+</Column>
+<Column name="Category_cod_category" id="8DC007C3-F42C-2C8F-D1B9-BCF1FF5788DC">
+<createdBy>jufeg</createdBy>
+<createdTime>2019-09-11 21:51:55 UTC</createdTime>
+<generatorID>A45CB154-CF6D-EA1E-7FF2-59672B24DA3D</generatorID>
+<ownerDesignName>modelo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>8 CHAR</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="542C2F40-BD70-99C9-10C5-CA492D565C7F" referredColumn="04BF6C3F-A668-282C-0478-159B485335BF"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="F00FD398-C1E3-F77A-9EED-DC3807F2BABB" name="Product_PK">
+<createdBy>jufeg</createdBy>
+<createdTime>2019-09-11 21:51:55 UTC</createdTime>
+<generatorID>ADDC19AB-C8EC-397D-03B2-620C6FD6A5BC</generatorID>
+<ownerDesignName>modelo</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4E3F40A3-6D61-62A9-DC0D-8F3429D2766D"/>
+<colUsage columnID="0883CBC0-3DA4-BF0E-F99C-B873564FE4EC"/>
+<colUsage columnID="E42D1E2F-08AA-2E15-F81B-7A471E3651F8"/>
+<colUsage columnID="02D4EEC0-EAB2-97D8-80E3-A2EE0978AEFD"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="063F28B5-15C4-BCA4-4F6B-56BE7C398D1C" name="Product_Category_FK">
+<createdBy>jufeg</createdBy>
+<createdTime>2019-09-11 21:51:55 UTC</createdTime>
+<generatorID>B0D05DA3-64FF-FAA8-8FEC-D52C18A0761D</generatorID>
+<ownerDesignName>modelo</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8DC007C3-F42C-2C8F-D1B9-BCF1FF5788DC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="15108DAE-4E88-8BB6-DD5E-BC50FC1CC730" name="Product_Publication_FK">
+<createdBy>jufeg</createdBy>
+<createdTime>2019-09-11 21:51:55 UTC</createdTime>
+<generatorID>BF2AC20B-64EE-6295-D616-FD6066699AB5</generatorID>
+<ownerDesignName>modelo</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0883CBC0-3DA4-BF0E-F99C-B873564FE4EC"/>
+<colUsage columnID="E42D1E2F-08AA-2E15-F81B-7A471E3651F8"/>
+<colUsage columnID="02D4EEC0-EAB2-97D8-80E3-A2EE0978AEFD"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -18,22 +18,30 @@
 <Attribute name="code" id="B310288E-0090-CB80-FD60-6A39582661D6">
 <createdBy>jufeg</createdBy>
 <createdTime>2019-09-11 05:12:14 UTC</createdTime>
+<commentInRDBMS><![CDATA[Código de selección]]></commentInRDBMS>
 <ownerDesignName>modelo</ownerDesignName>
 <engineerTo>
 <item key="EED47A9C-CC1C-E50E-E0AF-DAE849A859D6" value="true"/>
 </engineerTo>
-<use>0</use>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="Description" id="30834954-1AEC-0AEC-D85B-C628A28AA803">
 <createdBy>jufeg</createdBy>
 <createdTime>2019-09-11 05:12:20 UTC</createdTime>
+<commentInRDBMS><![CDATA[Descripción de selección]]></commentInRDBMS>
 <ownerDesignName>modelo</ownerDesignName>
 <engineerTo>
 <item key="EED47A9C-CC1C-E50E-E0AF-DAE849A859D6" value="true"/>
 </engineerTo>
-<use>0</use>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="code_feature" id="4136C230-FCAA-1A39-8A87-58AAB9498566">
 <createdBy>jufeg</createdBy>
