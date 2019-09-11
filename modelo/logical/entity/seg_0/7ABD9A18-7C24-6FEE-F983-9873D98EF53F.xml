@@ -54,20 +54,6 @@
 <logicalDatatype>LOGDT007</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="id_review" id="C9EFB221-6D59-A4F4-4448-B0686610DEDF">
-<createdBy>jufeg</createdBy>
-<createdTime>2019-09-10 14:32:11 UTC</createdTime>
-<generatorID>09DA8453-9B82-B11D-7523-6ED188DABEDB</generatorID>
-<ownerDesignName>modelo</ownerDesignName>
-<engineerTo>
-<item key="EED47A9C-CC1C-E50E-E0AF-DAE849A859D6" value="true"/>
-</engineerTo>
-<referedAttribute>1EECFD31-B578-E094-A849-7799DAAF5F7A</referedAttribute>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT019</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
 <identifier id="A4DEA084-8BB3-098B-C876-F9C8A24174BF" name="PurchaseOrder PK">

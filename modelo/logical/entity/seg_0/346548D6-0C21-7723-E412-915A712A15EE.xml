@@ -54,19 +54,48 @@
 <logicalDatatype>LOGDT008</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="license_number" id="3A51A1FA-6DBA-E8B4-338D-82EFC18AB000">
+<Attribute name="id_user" id="3B48D336-57BB-12D1-317F-08C9E82947EB">
 <createdBy>jufeg</createdBy>
-<createdTime>2019-09-11 02:56:28 UTC</createdTime>
+<createdTime>2019-09-11 04:34:34 UTC</createdTime>
 <generatorID>31968C82-A5EA-79D2-8846-9D7A5E311FFB</generatorID>
 <ownerDesignName>modelo</ownerDesignName>
 <engineerTo>
 <item key="EED47A9C-CC1C-E50E-E0AF-DAE849A859D6" value="true"/>
 </engineerTo>
-<referedAttribute>2804406A-76E2-A516-BAD0-F3C0E3A002AA</referedAttribute>
+<referedAttribute>AFD64C8A-8039-87D5-084B-116BAE28CF97</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cell_phone" id="AFF37A8B-6639-BECD-82CD-F6FCF772F5AC">
+<createdBy>jufeg</createdBy>
+<createdTime>2019-09-11 04:34:34 UTC</createdTime>
+<generatorID>31968C82-A5EA-79D2-8846-9D7A5E311FFB</generatorID>
+<ownerDesignName>modelo</ownerDesignName>
+<engineerTo>
+<item key="EED47A9C-CC1C-E50E-E0AF-DAE849A859D6" value="true"/>
+</engineerTo>
+<referedAttribute>69A1F790-6FC7-ABAE-A426-0BC2E72BD2CD</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>50</dataTypeSize>
+<dataTypeSize>25 CHAR</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="purchase_number" id="2C864770-6A62-B374-2D17-0ADD2C2F3C94">
+<createdBy>jufeg</createdBy>
+<createdTime>2019-09-11 04:37:31 UTC</createdTime>
+<generatorID>09DA8453-9B82-B11D-7523-6ED188DABEDB</generatorID>
+<ownerDesignName>modelo</ownerDesignName>
+<engineerTo>
+<item key="EED47A9C-CC1C-E50E-E0AF-DAE849A859D6" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>2F4215B7-E017-F3A6-3692-3884D8E29FAE</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
