@@ -24,8 +24,11 @@
 <engineerTo>
 <item key="EED47A9C-CC1C-E50E-E0AF-DAE849A859D6" value="true"/>
 </engineerTo>
-<use>0</use>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
@@ -38,7 +41,7 @@
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>
-<attributeRef>309974D2-5444-8ED1-C536-3D206E77E60C</attributeRef>
+<attributeRef>2804406A-76E2-A516-BAD0-F3C0E3A002AA</attributeRef>
 </usedAttributes>
 </identifier>
 </identifiers>

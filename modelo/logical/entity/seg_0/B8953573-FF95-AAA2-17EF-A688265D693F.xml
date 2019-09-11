@@ -70,7 +70,7 @@
 <dataTypeSize>100 CHAR</dataTypeSize>
 <ownDataTypeParameters>100 CHAR,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="kilometer_per_transport" id="54FD2B77-25E9-FF50-4DED-0B688C81DB0B">
+<Attribute name="coast_kilometer" id="54FD2B77-25E9-FF50-4DED-0B688C81DB0B">
 <createdBy>jufeg</createdBy>
 <createdTime>2019-09-10 14:10:01 UTC</createdTime>
 <commentInRDBMS><![CDATA[Precio que cuesta cada kilómetro de transporte por el vehículo]]></commentInRDBMS>
@@ -123,6 +123,21 @@
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="license_number" id="D15D8AB7-FD26-38AD-D926-71564EB89AF0">
+<createdBy>jufeg</createdBy>
+<createdTime>2019-09-11 02:59:28 UTC</createdTime>
+<generatorID>506193D3-B2F4-2913-8B87-88B07F503105</generatorID>
+<ownerDesignName>modelo</ownerDesignName>
+<engineerTo>
+<item key="EED47A9C-CC1C-E50E-E0AF-DAE849A859D6" value="true"/>
+</engineerTo>
+<referedAttribute>2804406A-76E2-A516-BAD0-F3C0E3A002AA</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 </attributes>

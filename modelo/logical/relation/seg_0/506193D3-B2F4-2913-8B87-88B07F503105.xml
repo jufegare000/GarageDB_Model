@@ -1,7 +1,7 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Relation_Courier_Vehicle" directorySegmentName="seg_0" id="C6F7E051-9B72-2639-7CB1-04603662066B">
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Relation_23" directorySegmentName="seg_0" id="506193D3-B2F4-2913-8B87-88B07F503105">
 <createdBy>jufeg</createdBy>
-<createdTime>2019-09-10 14:14:45 UTC</createdTime>
+<createdTime>2019-09-11 02:59:28 UTC</createdTime>
 <ownerDesignName>modelo</ownerDesignName>
 <engineerTo>
 <item key="EED47A9C-CC1C-E50E-E0AF-DAE849A859D6" value="true"/>
@@ -17,5 +17,5 @@
 <targetCardinalityString>*</targetCardinalityString>
 <targetEntity>B8953573-FF95-AAA2-17EF-A688265D693F</targetEntity>
 <transferable>true</transferable>
-<deleteRule>CASCADE</deleteRule>
+<deleteRule>NO ACTION</deleteRule>
 </Relation>
