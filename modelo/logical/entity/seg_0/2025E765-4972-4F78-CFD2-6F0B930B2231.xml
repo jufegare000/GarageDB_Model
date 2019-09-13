@@ -109,7 +109,7 @@
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT007</logicalDatatype>
+<logicalDatatype>LOGDT008</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="id_publication" id="2937BF81-C829-8622-C927-CD6A45A0BA62">
@@ -121,6 +121,20 @@
 <item key="87341601-4870-5C46-A48C-A6B5F5124CF1" value="true"/>
 </engineerTo>
 <referedAttribute>6BD1E436-44FA-B387-11E2-CF7982FBD84D</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_person1" id="8D3642EC-EC42-0700-86CC-CAE20894C7EA">
+<createdBy>jufeg</createdBy>
+<createdTime>2019-09-13 15:22:15 UTC</createdTime>
+<generatorID>5301F782-A347-58E0-CBFF-799C1DE028A8</generatorID>
+<ownerDesignName>modelo</ownerDesignName>
+<engineerTo>
+<item key="87341601-4870-5C46-A48C-A6B5F5124CF1" value="true"/>
+</engineerTo>
+<referedAttribute>AB9EB505-83EE-2E9E-E1F8-D9AB3826463E</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>

@@ -1,10 +1,11 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="B67FB09E-CD4D-7DAC-15A4-5881C9539E93" name="ProductByUser">
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="B67FB09E-CD4D-7DAC-15A4-5881C9539E93" name="ProductByPerson">
 <createdBy>jufeg</createdBy>
 <createdTime>2019-09-10 13:19:11 UTC</createdTime>
 <ownerDesignName>modelo</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
 <engineerTo>
-<item key="F0705694-54BD-D5CC-E041-F19110150CAF" value="true"/>
+<item key="87341601-4870-5C46-A48C-A6B5F5124CF1" value="false"/>
 </engineerTo>
 <adequatelyNormalized>NO</adequatelyNormalized>
 <expectedVolumes>0</expectedVolumes>
@@ -15,13 +16,14 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="shiping_cost" id="866F1487-B140-6B4C-6919-58803F877C25">
+<Attribute name="shipping_cost" id="866F1487-B140-6B4C-6919-58803F877C25">
 <createdBy>jufeg</createdBy>
 <createdTime>2019-09-10 13:19:19 UTC</createdTime>
 <commentInRDBMS><![CDATA[Este campo almacena el costo de envío del producto dependiendo de la ubicación en la que se encuentra el comprador.]]></commentInRDBMS>
 <ownerDesignName>modelo</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
 <engineerTo>
-<item key="F0705694-54BD-D5CC-E041-F19110150CAF" value="true"/>
+<item key="87341601-4870-5C46-A48C-A6B5F5124CF1" value="false"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -33,8 +35,9 @@
 <createdTime>2019-09-10 13:21:08 UTC</createdTime>
 <generatorID>2CC63C78-0E14-BDA5-7C80-E9B5CF0AA924</generatorID>
 <ownerDesignName>modelo</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
 <engineerTo>
-<item key="F0705694-54BD-D5CC-E041-F19110150CAF" value="true"/>
+<item key="87341601-4870-5C46-A48C-A6B5F5124CF1" value="false"/>
 </engineerTo>
 <referedAttribute>8A970440-00BB-01A3-89BD-6EE77A5A8DBA</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
@@ -47,8 +50,9 @@
 <createdTime>2019-09-10 13:23:01 UTC</createdTime>
 <generatorID>30F1EDF1-E44B-B6EA-A498-B5D9F628D1FF</generatorID>
 <ownerDesignName>modelo</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
 <engineerTo>
-<item key="F0705694-54BD-D5CC-E041-F19110150CAF" value="true"/>
+<item key="87341601-4870-5C46-A48C-A6B5F5124CF1" value="false"/>
 </engineerTo>
 <referedAttribute>AFD64C8A-8039-87D5-084B-116BAE28CF97</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
@@ -61,23 +65,25 @@
 <createdTime>2019-09-10 13:23:01 UTC</createdTime>
 <generatorID>30F1EDF1-E44B-B6EA-A498-B5D9F628D1FF</generatorID>
 <ownerDesignName>modelo</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
 <engineerTo>
-<item key="F0705694-54BD-D5CC-E041-F19110150CAF" value="true"/>
+<item key="87341601-4870-5C46-A48C-A6B5F5124CF1" value="false"/>
 </engineerTo>
 <referedAttribute>69A1F790-6FC7-ABAE-A426-0BC2E72BD2CD</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
 <dataTypeSize>25 CHAR</dataTypeSize>
-<ownDataTypeParameters>25 CHAR,,</ownDataTypeParameters>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="purchase_number" id="2DB2F25E-AD9A-53C2-1A46-6F3522F36CFC">
 <createdBy>jufeg</createdBy>
 <createdTime>2019-09-10 13:35:56 UTC</createdTime>
 <generatorID>42F650B8-33B5-AE6B-2A17-4862C3041BA5</generatorID>
 <ownerDesignName>modelo</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
 <engineerTo>
-<item key="F0705694-54BD-D5CC-E041-F19110150CAF" value="true"/>
+<item key="87341601-4870-5C46-A48C-A6B5F5124CF1" value="false"/>
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <referedAttribute>2F4215B7-E017-F3A6-3692-3884D8E29FAE</referedAttribute>
@@ -92,8 +98,9 @@
 <createdBy>jufeg</createdBy>
 <createdTime>2019-09-10 13:22:56 UTC</createdTime>
 <ownerDesignName>modelo</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
 <engineerTo>
-<item key="F0705694-54BD-D5CC-E041-F19110150CAF" value="true"/>
+<item key="87341601-4870-5C46-A48C-A6B5F5124CF1" value="false"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>
