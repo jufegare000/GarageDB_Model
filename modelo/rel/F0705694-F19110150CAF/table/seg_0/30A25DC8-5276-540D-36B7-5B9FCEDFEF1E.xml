@@ -1,0 +1,100 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="30A25DC8-5276-540D-36B7-5B9FCEDFEF1E" name="Photo">
+<createdBy>jufeg</createdBy>
+<createdTime>2019-09-13 12:23:32 UTC</createdTime>
+<generatorID>5DE32215-E46D-91F2-C42E-E29FEA0E1667</generatorID>
+<ownerDesignName>modelo</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_product" id="5248249A-7056-3225-B352-5ED4268BE07A">
+<createdBy>jufeg</createdBy>
+<createdTime>2019-09-13 12:23:32 UTC</createdTime>
+<generatorID>77C68F6F-36DC-090E-FBD8-93F6B6B2851B</generatorID>
+<ownerDesignName>modelo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="url_photo" id="89A642D2-F9B1-5D80-03C8-038CBA1DA1A5">
+<createdBy>jufeg</createdBy>
+<createdTime>2019-09-13 12:23:32 UTC</createdTime>
+<commentInRDBMS><![CDATA[Dirección de enlace a la ruta de la foto en sistema externo]]></commentInRDBMS>
+<generatorID>7411B115-06F0-5A6F-91AD-EED1B930B0DC</generatorID>
+<ownerDesignName>modelo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LogDes-1768A872-F385-FDBA-D95E-0CB63F5908E2@LOGDT10045</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="upload_date" id="8CE4AED3-8FBC-44FE-CF97-1622A3D10D72">
+<createdBy>jufeg</createdBy>
+<createdTime>2019-09-13 12:23:32 UTC</createdTime>
+<commentInRDBMS><![CDATA[Fecha de carga al sistema]]></commentInRDBMS>
+<generatorID>6D2CE643-8552-B182-1048-EBDC2AF1CF28</generatorID>
+<ownerDesignName>modelo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="consecutive" id="13274641-8FB1-F61B-A5C1-487708F68C96">
+<createdBy>jufeg</createdBy>
+<createdTime>2019-09-13 12:23:32 UTC</createdTime>
+<commentInRDBMS><![CDATA[Consecutivo de la foto que fue cargada]]></commentInRDBMS>
+<generatorID>15636DA4-D347-6A09-855A-92FE49B5B442</generatorID>
+<ownerDesignName>modelo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Product_id_product" id="4D3E6A8A-3DD1-C322-1E58-CA249CE8C1F4">
+<createdBy>jufeg</createdBy>
+<createdTime>2019-09-13 12:23:32 UTC</createdTime>
+<generatorID>22D8AD17-622C-BEFA-C919-5342DFDCDEB9</generatorID>
+<ownerDesignName>modelo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="EFE76631-90CC-2A10-C3D0-C483C81E82A2" referredColumn="F24647BF-F042-CC83-4C84-46E667BE42DC"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="950530C3-11D6-5108-6F7B-0461088A21D0" name="Photo_PK">
+<createdBy>jufeg</createdBy>
+<createdTime>2019-09-13 12:23:32 UTC</createdTime>
+<generatorID>88D4136B-2AAD-1BDB-F42F-8A040EF21596</generatorID>
+<ownerDesignName>modelo</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5248249A-7056-3225-B352-5ED4268BE07A"/>
+<colUsage columnID="4D3E6A8A-3DD1-C322-1E58-CA249CE8C1F4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="89AB2381-D127-2AFA-4584-A09B45FC46B0" name="Photo_Product_FK">
+<createdBy>jufeg</createdBy>
+<createdTime>2019-09-13 12:23:32 UTC</createdTime>
+<generatorID>9D072B7E-F8B1-DA4E-FA75-0E8D866B9B3F</generatorID>
+<ownerDesignName>modelo</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4D3E6A8A-3DD1-C322-1E58-CA249CE8C1F4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

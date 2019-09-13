@@ -1,0 +1,176 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="ED3FD3DB-CCA6-BE86-548C-E4596D4DD41B" name="Devolution">
+<createdBy>jufeg</createdBy>
+<createdTime>2019-09-13 12:23:32 UTC</createdTime>
+<generatorID>2679586E-5B6D-E6F9-03F6-5C6409ABCBC7</generatorID>
+<ownerDesignName>modelo</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_devolution" id="0D996A24-B339-47EF-906C-4A4D07EF4FB7">
+<createdBy>jufeg</createdBy>
+<createdTime>2019-09-13 12:23:32 UTC</createdTime>
+<commentInRDBMS><![CDATA[Id de la devolución]]></commentInRDBMS>
+<generatorID>842A3FD1-831B-179A-E8A8-8EBBE89B230D</generatorID>
+<ownerDesignName>modelo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="reason" id="2C154842-FEF6-90F8-BD04-7606E84AAB1B">
+<createdBy>jufeg</createdBy>
+<createdTime>2019-09-13 12:23:32 UTC</createdTime>
+<commentInRDBMS><![CDATA[Razón por la cuál se devuleve el producto]]></commentInRDBMS>
+<generatorID>628DCD75-9E3F-BA74-3596-A7FF3252C623</generatorID>
+<ownerDesignName>modelo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>500 CHAR</dataTypeSize>
+<ownDataTypeParameters>500 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="devolution_type" id="C9ED9F1E-9AAE-AA81-0BC2-8917811BBD0E">
+<createdBy>jufeg</createdBy>
+<createdTime>2019-09-13 12:23:32 UTC</createdTime>
+<commentInRDBMS><![CDATA[Tipo de devolución ]]></commentInRDBMS>
+<generatorID>ACD52DE3-944B-4765-DCE6-9F33AE86F53E</generatorID>
+<ownerDesignName>modelo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10 CHAR</dataTypeSize>
+<ownDataTypeParameters>10 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PurchaseOrder_purchase_number" id="B598B455-3E26-9469-1317-4FBA1234A61A">
+<createdBy>jufeg</createdBy>
+<createdTime>2019-09-13 12:23:32 UTC</createdTime>
+<generatorID>7579369F-F78E-FB1F-3B14-014989816744</generatorID>
+<ownerDesignName>modelo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="E7F72730-930C-542E-9E4C-8C44318D7CF9" referredColumn="2FDAED0F-93AC-C670-350F-C8A25292B87A"/>
+</associations>
+</Column>
+<Column name="refund" id="BB93BD11-3EAB-52F4-AA39-31E97DDBA250">
+<createdBy>jufeg</createdBy>
+<createdTime>2019-09-13 12:23:32 UTC</createdTime>
+<commentInRDBMS><![CDATA[dinero devuelto al usaurio compradro]]></commentInRDBMS>
+<generatorID>DDF28996-A380-1678-7DFA-E3236707C8C9</generatorID>
+<ownerDesignName>modelo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ProductByUser_id_product" id="4E117545-42E7-8380-69AB-6556BCA838AF">
+<createdBy>jufeg</createdBy>
+<createdTime>2019-09-13 12:23:32 UTC</createdTime>
+<generatorID>441E85CA-F866-0C90-9F4F-C91D80C94170</generatorID>
+<ownerDesignName>modelo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="A74319E6-0EC0-EF5A-4483-5CB601564EAA" referredColumn="DE84F05D-B77F-3C41-E433-4968E67160C4"/>
+</associations>
+</Column>
+<Column name="ProductByUser_id_user1" id="0B8AD6BF-D3FC-B256-34C1-A56FCD990DC2">
+<createdBy>jufeg</createdBy>
+<createdTime>2019-09-13 12:23:32 UTC</createdTime>
+<commentInRDBMS><![CDATA[Id usuario comprador]]></commentInRDBMS>
+<generatorID>93A501A3-8076-A84D-5E89-FC2F428E7181</generatorID>
+<ownerDesignName>modelo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="A74319E6-0EC0-EF5A-4483-5CB601564EAA" referredColumn="E2764203-DEA4-578B-6564-533C035AF524"/>
+</associations>
+</Column>
+<Column name="ProductByUser_cell_phone1" id="61436634-9250-FF28-37D5-F7CAF3C718A9">
+<createdBy>jufeg</createdBy>
+<createdTime>2019-09-13 12:23:32 UTC</createdTime>
+<commentInRDBMS><![CDATA[Celular de usuario comprador]]></commentInRDBMS>
+<generatorID>8C180948-1ED8-D6A0-3833-F00B46041B04</generatorID>
+<ownerDesignName>modelo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>25 CHAR</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="A74319E6-0EC0-EF5A-4483-5CB601564EAA" referredColumn="A3AC545A-C9A0-DA50-A3A1-4F7DC68487DC"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="09863B57-D6AE-5B14-D857-3E0D6B25DAAD" name="Devolution_PK">
+<createdBy>jufeg</createdBy>
+<createdTime>2019-09-13 12:23:32 UTC</createdTime>
+<generatorID>C4386224-C8D5-EC36-DDF2-1E937C8B08B2</generatorID>
+<ownerDesignName>modelo</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0D996A24-B339-47EF-906C-4A4D07EF4FB7"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C84A763A-4C34-B6E4-CDF8-4AB489DC7CF3" name="Devolution__IDX">
+<createdBy>jufeg</createdBy>
+<createdTime>2019-09-13 12:23:32 UTC</createdTime>
+<ownerDesignName>modelo</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>4F170A7F-EECE-50FA-FD3F-4D38EF3B20DE</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="4E117545-42E7-8380-69AB-6556BCA838AF"/>
+<colUsage columnID="0B8AD6BF-D3FC-B256-34C1-A56FCD990DC2"/>
+<colUsage columnID="61436634-9250-FF28-37D5-F7CAF3C718A9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="57E8ED77-C27C-44EA-B3E9-62148E33EA10" name="Devolution_ProductByUser_FK">
+<createdBy>jufeg</createdBy>
+<createdTime>2019-09-13 12:23:32 UTC</createdTime>
+<generatorID>4F170A7F-EECE-50FA-FD3F-4D38EF3B20DE</generatorID>
+<ownerDesignName>modelo</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4E117545-42E7-8380-69AB-6556BCA838AF"/>
+<colUsage columnID="0B8AD6BF-D3FC-B256-34C1-A56FCD990DC2"/>
+<colUsage columnID="61436634-9250-FF28-37D5-F7CAF3C718A9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="2BBF1D9F-FCAF-EFA4-E494-B36D4D83C839" name="Devolution_PurchaseOrder_FK">
+<createdBy>jufeg</createdBy>
+<createdTime>2019-09-13 12:23:32 UTC</createdTime>
+<generatorID>351580CB-A0B4-FFE8-1500-37BFE3250A94</generatorID>
+<ownerDesignName>modelo</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B598B455-3E26-9469-1317-4FBA1234A61A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

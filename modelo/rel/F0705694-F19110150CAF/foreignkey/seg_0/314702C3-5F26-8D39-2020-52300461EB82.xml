@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="314702C3-5F26-8D39-2020-52300461EB82" containerWithKeyObject="744A8B92-CD30-B81B-1EA7-15AE07A0B777" localFKIndex="5360CC92-5531-5F2F-80AC-C31721B74B93" name="Vehicle_Courier_FK">
+<createdBy>jufeg</createdBy>
+<createdTime>2019-09-13 12:23:32 UTC</createdTime>
+<generatorID>506193D3-B2F4-2913-8B87-88B07F503105</generatorID>
+<ownerDesignName>modelo</ownerDesignName>
+<referredTableLongName>Courier</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>95A85EEF-2839-B7A6-2FBC-D027B9DBE4DA</referredTableID>
+<keyObject>74019486-8647-C7A4-435B-9E1340F3C348</keyObject>
+<referredKeyID>74019486-8647-C7A4-435B-9E1340F3C348</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>license_number</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

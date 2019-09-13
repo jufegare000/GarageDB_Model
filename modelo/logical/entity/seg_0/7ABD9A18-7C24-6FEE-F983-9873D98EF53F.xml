@@ -4,7 +4,7 @@
 <createdTime>2019-09-10 13:27:50 UTC</createdTime>
 <ownerDesignName>modelo</ownerDesignName>
 <engineerTo>
-<item key="AC5FA8CD-F6BE-E4D2-E659-26D63CBB5084" value="true"/>
+<item key="D934E8BF-E612-30BD-D50A-2A5B761C08D8" value="true"/>
 </engineerTo>
 <adequatelyNormalized>NO</adequatelyNormalized>
 <expectedVolumes>0</expectedVolumes>
@@ -21,7 +21,7 @@
 <commentInRDBMS><![CDATA[Número de compra: éste es retornado por la pasera de pago]]></commentInRDBMS>
 <ownerDesignName>modelo</ownerDesignName>
 <engineerTo>
-<item key="AC5FA8CD-F6BE-E4D2-E659-26D63CBB5084" value="true"/>
+<item key="D934E8BF-E612-30BD-D50A-2A5B761C08D8" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -34,7 +34,7 @@
 <commentInRDBMS><![CDATA[Valor a pagar por el usuario comprador]]></commentInRDBMS>
 <ownerDesignName>modelo</ownerDesignName>
 <engineerTo>
-<item key="AC5FA8CD-F6BE-E4D2-E659-26D63CBB5084" value="true"/>
+<item key="D934E8BF-E612-30BD-D50A-2A5B761C08D8" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -47,7 +47,7 @@
 <commentInRDBMS><![CDATA[Fecha en la que fue efectuado el pago de los productos.]]></commentInRDBMS>
 <ownerDesignName>modelo</ownerDesignName>
 <engineerTo>
-<item key="AC5FA8CD-F6BE-E4D2-E659-26D63CBB5084" value="true"/>
+<item key="D934E8BF-E612-30BD-D50A-2A5B761C08D8" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -61,7 +61,7 @@
 <createdTime>2019-09-10 13:35:53 UTC</createdTime>
 <ownerDesignName>modelo</ownerDesignName>
 <engineerTo>
-<item key="AC5FA8CD-F6BE-E4D2-E659-26D63CBB5084" value="true"/>
+<item key="D934E8BF-E612-30BD-D50A-2A5B761C08D8" value="true"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>

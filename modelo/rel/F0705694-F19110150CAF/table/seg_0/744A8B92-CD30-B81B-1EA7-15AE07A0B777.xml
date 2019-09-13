@@ -1,0 +1,153 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="744A8B92-CD30-B81B-1EA7-15AE07A0B777" name="Vehicle">
+<createdBy>jufeg</createdBy>
+<createdTime>2019-09-13 12:23:32 UTC</createdTime>
+<generatorID>B8953573-FF95-AAA2-17EF-A688265D693F</generatorID>
+<ownerDesignName>modelo</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_vehicle" id="3B3765E6-F515-A044-612C-B9B9FE6749DF">
+<createdBy>jufeg</createdBy>
+<createdTime>2019-09-13 12:23:32 UTC</createdTime>
+<commentInRDBMS><![CDATA[Id único y consecutivo para vehículos registrados en el sistema]]></commentInRDBMS>
+<generatorID>A37FD589-8F06-C22B-0ED2-B3FA15EF6BAA</generatorID>
+<ownerDesignName>modelo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="brand" id="84957985-A101-0DF2-9AE1-1950BE37CBAD">
+<createdBy>jufeg</createdBy>
+<createdTime>2019-09-13 12:23:32 UTC</createdTime>
+<commentInRDBMS><![CDATA[Marca de vehículo]]></commentInRDBMS>
+<generatorID>27197EDB-B072-2CE2-E7E6-BA8329CB4C57</generatorID>
+<ownerDesignName>modelo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 CHAR</dataTypeSize>
+<ownDataTypeParameters>100 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="license_plate" id="1B851537-CCBF-1F25-BFAA-0479D5048818">
+<createdBy>jufeg</createdBy>
+<createdTime>2019-09-13 12:23:32 UTC</createdTime>
+<commentInRDBMS><![CDATA[placa del vehículo]]></commentInRDBMS>
+<generatorID>E95CF038-4CA0-8499-A3F5-AC2895FB291B</generatorID>
+<ownerDesignName>modelo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10 CHAR</dataTypeSize>
+<ownDataTypeParameters>10 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="color" id="4686F70D-0AD6-DF0A-F3E8-98193B4A2561">
+<createdBy>jufeg</createdBy>
+<createdTime>2019-09-13 12:23:32 UTC</createdTime>
+<commentInRDBMS><![CDATA[Color de vehículo]]></commentInRDBMS>
+<generatorID>C91CCB38-B881-8547-7DF2-EE4D35F3C8ED</generatorID>
+<ownerDesignName>modelo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 CHAR</dataTypeSize>
+<ownDataTypeParameters>100 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="coast_kilometer" id="9A6C85EA-AB26-89AD-A711-EE08DA167660">
+<createdBy>jufeg</createdBy>
+<createdTime>2019-09-13 12:23:32 UTC</createdTime>
+<commentInRDBMS><![CDATA[Precio que cuesta cada kilómetro de transporte por el vehículo]]></commentInRDBMS>
+<generatorID>54FD2B77-25E9-FF50-4DED-0B688C81DB0B</generatorID>
+<ownerDesignName>modelo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="SOAT" id="BBCA54E7-D69E-D9B0-3BFF-D9543D245D2D">
+<createdBy>jufeg</createdBy>
+<createdTime>2019-09-13 12:23:32 UTC</createdTime>
+<commentInRDBMS><![CDATA[número de seguro obligatorio]]></commentInRDBMS>
+<generatorID>0BA838BF-4414-D688-EA94-73668F343909</generatorID>
+<ownerDesignName>modelo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="techno_mechanic" id="388DE1D4-D281-97B5-A4D8-B1E1CFA5691D">
+<createdBy>jufeg</createdBy>
+<createdTime>2019-09-13 12:23:32 UTC</createdTime>
+<commentInRDBMS><![CDATA[Número de tecnomecánica]]></commentInRDBMS>
+<generatorID>3C735064-AD6F-6E9C-5EBF-0FA02F26EFE1</generatorID>
+<ownerDesignName>modelo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 CHAR</dataTypeSize>
+<ownDataTypeParameters>100 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="id_courier" id="0C1137C5-1564-7500-9AC6-3AE4F7BEB59A">
+<createdBy>jufeg</createdBy>
+<createdTime>2019-09-13 12:23:32 UTC</createdTime>
+<generatorID>213B04E2-5BBF-97D2-910B-699C1ADE3991</generatorID>
+<ownerDesignName>modelo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Courier_license_number" id="52F1BF9C-A179-B66E-C8A3-F370F34CED2F">
+<createdBy>jufeg</createdBy>
+<createdTime>2019-09-13 12:23:32 UTC</createdTime>
+<generatorID>D15D8AB7-FD26-38AD-D926-71564EB89AF0</generatorID>
+<ownerDesignName>modelo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="314702C3-5F26-8D39-2020-52300461EB82" referredColumn="0779A74A-311F-B40F-9704-36A7A48FA12A"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="322ECB5D-0BA3-008A-DCE7-6B5327F1192B" name="Vehicle_PK">
+<createdBy>jufeg</createdBy>
+<createdTime>2019-09-13 12:23:32 UTC</createdTime>
+<generatorID>69611448-831B-4C11-0D9D-C89C9A42B0A9</generatorID>
+<ownerDesignName>modelo</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3B3765E6-F515-A044-612C-B9B9FE6749DF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="5360CC92-5531-5F2F-80AC-C31721B74B93" name="Vehicle_Courier_FK">
+<createdBy>jufeg</createdBy>
+<createdTime>2019-09-13 12:23:32 UTC</createdTime>
+<generatorID>506193D3-B2F4-2913-8B87-88B07F503105</generatorID>
+<ownerDesignName>modelo</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="52F1BF9C-A179-B66E-C8A3-F370F34CED2F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

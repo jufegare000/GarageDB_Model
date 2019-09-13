@@ -1,0 +1,92 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="D480F88A-B159-C29D-4C3A-3A12F894C3BF" name="ProductByFeature">
+<createdBy>jufeg</createdBy>
+<createdTime>2019-09-13 12:23:32 UTC</createdTime>
+<generatorID>0A1EC4A0-9AA7-AAAD-1C5D-E38E04CC8D6D</generatorID>
+<ownerDesignName>modelo</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Product_id_product" id="526836E2-7804-3EB2-562E-CF4B4880029B">
+<createdBy>jufeg</createdBy>
+<createdTime>2019-09-13 12:23:32 UTC</createdTime>
+<generatorID>9D2F5C3D-DA74-B310-DAD0-49CA3D66CAAF</generatorID>
+<ownerDesignName>modelo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="30776B84-8E39-81BC-F6A6-9A16C18661F7" referredColumn="F24647BF-F042-CC83-4C84-46E667BE42DC"/>
+</associations>
+</Column>
+<Column name="Feature_code_feature" id="EB617064-3969-7F9D-9459-B868541675C4">
+<createdBy>jufeg</createdBy>
+<createdTime>2019-09-13 12:23:32 UTC</createdTime>
+<generatorID>CFCC793B-F2E0-8BA1-3FB5-6D76D527FD8E</generatorID>
+<ownerDesignName>modelo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>8 CHAR</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="49E363D6-0413-CE69-C456-92D765F9E1A5" referredColumn="DAC3E82F-8F23-8D90-2C1A-6311C450E293"/>
+</associations>
+</Column>
+<Column name="value_registered" id="EE5C4908-B158-D042-1438-AB89D4CB2D98">
+<createdBy>jufeg</createdBy>
+<createdTime>2019-09-13 12:23:32 UTC</createdTime>
+<commentInRDBMS><![CDATA[Valor ingresado por el usuario para cada característica]]></commentInRDBMS>
+<generatorID>05A650AE-D954-40DF-5344-453D0045B983</generatorID>
+<ownerDesignName>modelo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LogDes-1768A872-F385-FDBA-D95E-0CB63F5908E2@LOGDT10045</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="691FE139-0B0B-B9A2-CF88-3F62BD618D9B" name="ProductByFeature_PK">
+<createdBy>jufeg</createdBy>
+<createdTime>2019-09-13 12:23:32 UTC</createdTime>
+<generatorID>47116EA8-C824-1CF4-7831-EB19E6CC3F75</generatorID>
+<ownerDesignName>modelo</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="526836E2-7804-3EB2-562E-CF4B4880029B"/>
+<colUsage columnID="EB617064-3969-7F9D-9459-B868541675C4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="CC5FBA60-670A-F346-5B48-2E94174EEA30" name="ProductByFeature_Feature_FK">
+<createdBy>jufeg</createdBy>
+<createdTime>2019-09-13 12:23:32 UTC</createdTime>
+<generatorID>078D1C5A-395D-DB73-79D5-5F7D3D84BF1B</generatorID>
+<ownerDesignName>modelo</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="EB617064-3969-7F9D-9459-B868541675C4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="23BB30F7-CAED-8959-CD5E-8A50D922F6BA" name="ProductByFeature_Product_FK">
+<createdBy>jufeg</createdBy>
+<createdTime>2019-09-13 12:23:32 UTC</createdTime>
+<generatorID>7D76D57F-BB82-F368-A0E7-5B7CFE037E61</generatorID>
+<ownerDesignName>modelo</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="526836E2-7804-3EB2-562E-CF4B4880029B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

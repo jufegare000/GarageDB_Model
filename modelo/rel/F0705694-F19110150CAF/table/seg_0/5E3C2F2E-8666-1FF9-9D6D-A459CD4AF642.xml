@@ -1,0 +1,92 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="5E3C2F2E-8666-1FF9-9D6D-A459CD4AF642" name="QuestByPub">
+<createdBy>jufeg</createdBy>
+<createdTime>2019-09-13 12:23:32 UTC</createdTime>
+<generatorID>67E66568-83C0-0217-F3E8-C2D292A33FEE</generatorID>
+<ownerDesignName>modelo</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Publication_id_publication" id="8995944F-4D57-DFBD-746E-DB902DC5702F">
+<createdBy>jufeg</createdBy>
+<createdTime>2019-09-13 12:23:32 UTC</createdTime>
+<generatorID>D8E3CAD4-60ED-03BC-DBE6-3D7F73EA2CAA</generatorID>
+<ownerDesignName>modelo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="8EF2CB55-9E0B-05E2-3261-BDCFDADA558E" referredColumn="F35A1884-DDA4-EF73-7E97-8C6ACD171C1A"/>
+</associations>
+</Column>
+<Column name="id_pbq" id="AE0F8522-756F-1EAF-B5F6-9DD1F9E38374">
+<createdBy>jufeg</createdBy>
+<createdTime>2019-09-13 12:23:32 UTC</createdTime>
+<commentInRDBMS><![CDATA[Clave primria de tabla de intersección]]></commentInRDBMS>
+<generatorID>203A8927-959A-2F6C-8640-F06EC6472632</generatorID>
+<ownerDesignName>modelo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Questions_id_question" id="09D399D6-70FE-9B4E-7DEB-262BE66A9EC3">
+<createdBy>jufeg</createdBy>
+<createdTime>2019-09-13 12:23:32 UTC</createdTime>
+<generatorID>D9154076-993F-8634-BF92-C27D5A6454D5</generatorID>
+<ownerDesignName>modelo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="A15D8904-788A-E320-418B-13FCCD211CAC" referredColumn="3C8AEB63-0A52-56D5-6C5D-201419357D5D"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="E51036E5-FA26-0DEB-CBEE-6946E72F78C1" name="QuestByPub_PK">
+<createdBy>jufeg</createdBy>
+<createdTime>2019-09-13 12:23:32 UTC</createdTime>
+<generatorID>BBAED777-27C6-538D-6DA7-EC50B2BB8521</generatorID>
+<ownerDesignName>modelo</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8995944F-4D57-DFBD-746E-DB902DC5702F"/>
+<colUsage columnID="AE0F8522-756F-1EAF-B5F6-9DD1F9E38374"/>
+<colUsage columnID="09D399D6-70FE-9B4E-7DEB-262BE66A9EC3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A032F25B-1B9A-E898-0085-66BE590761F9" name="QuestByPub_Publication_FK">
+<createdBy>jufeg</createdBy>
+<createdTime>2019-09-13 12:23:32 UTC</createdTime>
+<generatorID>78B131D3-07E0-8BAB-7E53-9F0B370E5F5C</generatorID>
+<ownerDesignName>modelo</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8995944F-4D57-DFBD-746E-DB902DC5702F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="FB7D1170-DF7D-82AC-1009-1974CBD51DDE" name="QuestByPub_Questions_FK">
+<createdBy>jufeg</createdBy>
+<createdTime>2019-09-13 12:23:32 UTC</createdTime>
+<generatorID>8867B6A5-5DCE-3417-86D5-F8CBB20D8886</generatorID>
+<ownerDesignName>modelo</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="09D399D6-70FE-9B4E-7DEB-262BE66A9EC3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

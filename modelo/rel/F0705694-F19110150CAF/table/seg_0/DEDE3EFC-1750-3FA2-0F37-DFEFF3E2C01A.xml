@@ -1,0 +1,81 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="DEDE3EFC-1750-3FA2-0F37-DFEFF3E2C01A" name="FeatureByCategory">
+<createdBy>jufeg</createdBy>
+<createdTime>2019-09-13 12:23:32 UTC</createdTime>
+<generatorID>9172CC2B-AA88-54DC-48FB-F48B776C4941</generatorID>
+<ownerDesignName>modelo</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Feature_code_feature" id="842CB32F-F5D6-1E19-8C05-1FBF7B90E42E">
+<createdBy>jufeg</createdBy>
+<createdTime>2019-09-13 12:23:32 UTC</createdTime>
+<generatorID>3CEE4D73-5BF8-4B5D-0153-5DC1DB013FC6</generatorID>
+<ownerDesignName>modelo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>8 CHAR</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="0FE61A56-4F6F-01CC-FAE7-D1E69A27E747" referredColumn="DAC3E82F-8F23-8D90-2C1A-6311C450E293"/>
+</associations>
+</Column>
+<Column name="Category_cod_category" id="47DA40E1-2062-E1EA-9C0A-C75FCB764AC3">
+<createdBy>jufeg</createdBy>
+<createdTime>2019-09-13 12:23:32 UTC</createdTime>
+<generatorID>73DA8650-417E-8C08-FD88-0E5484441698</generatorID>
+<ownerDesignName>modelo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>8 CHAR</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="32FFD1D6-2463-9349-DCFD-E98732A0B7FE" referredColumn="23298A4E-49EF-97EC-85A8-50B0E5091ABE"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="CCB3929E-0876-81CB-2FAA-08EB9AAFC5DC" name="FeatureByCategory_PK">
+<createdBy>jufeg</createdBy>
+<createdTime>2019-09-13 12:23:32 UTC</createdTime>
+<generatorID>E2628DB0-0D7E-3628-369D-830FA66E0549</generatorID>
+<ownerDesignName>modelo</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="842CB32F-F5D6-1E19-8C05-1FBF7B90E42E"/>
+<colUsage columnID="47DA40E1-2062-E1EA-9C0A-C75FCB764AC3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="2612BA83-1B00-B8F0-8C87-3F4EB05BFFA2" name="FeatureByCategory_Category_FK">
+<createdBy>jufeg</createdBy>
+<createdTime>2019-09-13 12:23:32 UTC</createdTime>
+<generatorID>A0B5C1F3-B84E-5923-D8B3-919FBA23C281</generatorID>
+<ownerDesignName>modelo</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="47DA40E1-2062-E1EA-9C0A-C75FCB764AC3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="5C7BC70E-2744-3EA9-2AA2-29862260CFA8" name="FeatureByCategory_Feature_FK">
+<createdBy>jufeg</createdBy>
+<createdTime>2019-09-13 12:23:32 UTC</createdTime>
+<generatorID>17555B64-5EF7-5591-2F2C-8719AD972C4D</generatorID>
+<ownerDesignName>modelo</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="842CB32F-F5D6-1E19-8C05-1FBF7B90E42E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

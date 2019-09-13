@@ -4,7 +4,7 @@
 <createdTime>2019-09-10 14:26:38 UTC</createdTime>
 <ownerDesignName>modelo</ownerDesignName>
 <engineerTo>
-<item key="D4F50DBE-2C00-ABA7-1774-C9F9303777C9" value="true"/>
+<item key="D934E8BF-E612-30BD-D50A-2A5B761C08D8" value="true"/>
 </engineerTo>
 <adequatelyNormalized>NO</adequatelyNormalized>
 <expectedVolumes>0</expectedVolumes>
@@ -15,13 +15,25 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_question" id="BB381871-64E8-9095-59CA-96171939A0DF">
+<createdBy>jufeg</createdBy>
+<createdTime>2019-09-13 12:21:42 UTC</createdTime>
+<ownerDesignName>modelo</ownerDesignName>
+<engineerTo>
+<item key="D934E8BF-E612-30BD-D50A-2A5B761C08D8" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
 <Attribute name="question_date" id="469C5A5E-1903-199E-729B-4E38FE5D8802">
 <createdBy>jufeg</createdBy>
 <createdTime>2019-09-10 14:28:24 UTC</createdTime>
 <commentInRDBMS><![CDATA[Fecha en la que se hace la pregunta]]></commentInRDBMS>
 <ownerDesignName>modelo</ownerDesignName>
 <engineerTo>
-<item key="D4F50DBE-2C00-ABA7-1774-C9F9303777C9" value="true"/>
+<item key="D934E8BF-E612-30BD-D50A-2A5B761C08D8" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -34,7 +46,7 @@
 <commentInRDBMS><![CDATA[Pregunta que se hace sobre la publicación al vendedor]]></commentInRDBMS>
 <ownerDesignName>modelo</ownerDesignName>
 <engineerTo>
-<item key="D4F50DBE-2C00-ABA7-1774-C9F9303777C9" value="true"/>
+<item key="D934E8BF-E612-30BD-D50A-2A5B761C08D8" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -47,7 +59,7 @@
 <commentInRDBMS><![CDATA[Respuesta del vendedor sobre la pregunta]]></commentInRDBMS>
 <ownerDesignName>modelo</ownerDesignName>
 <engineerTo>
-<item key="D4F50DBE-2C00-ABA7-1774-C9F9303777C9" value="true"/>
+<item key="D934E8BF-E612-30BD-D50A-2A5B761C08D8" value="true"/>
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
@@ -62,7 +74,7 @@
 <generatorID>7553E92C-7090-495A-BB24-1F881751A8EA</generatorID>
 <ownerDesignName>modelo</ownerDesignName>
 <engineerTo>
-<item key="D4F50DBE-2C00-ABA7-1774-C9F9303777C9" value="true"/>
+<item key="D934E8BF-E612-30BD-D50A-2A5B761C08D8" value="true"/>
 </engineerTo>
 <referedAttribute>AFD64C8A-8039-87D5-084B-116BAE28CF97</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
@@ -77,14 +89,14 @@
 <generatorID>7553E92C-7090-495A-BB24-1F881751A8EA</generatorID>
 <ownerDesignName>modelo</ownerDesignName>
 <engineerTo>
-<item key="D4F50DBE-2C00-ABA7-1774-C9F9303777C9" value="true"/>
+<item key="D934E8BF-E612-30BD-D50A-2A5B761C08D8" value="true"/>
 </engineerTo>
 <referedAttribute>69A1F790-6FC7-ABAE-A426-0BC2E72BD2CD</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
 <dataTypeSize>25 CHAR</dataTypeSize>
-<ownDataTypeParameters>25 CHAR,,</ownDataTypeParameters>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
@@ -93,9 +105,12 @@
 <createdTime>2019-09-10 14:29:40 UTC</createdTime>
 <ownerDesignName>modelo</ownerDesignName>
 <engineerTo>
-<item key="D4F50DBE-2C00-ABA7-1774-C9F9303777C9" value="true"/>
+<item key="D934E8BF-E612-30BD-D50A-2A5B761C08D8" value="true"/>
 </engineerTo>
 <pk>true</pk>
+<usedAttributes>
+<attributeRef>BB381871-64E8-9095-59CA-96171939A0DF</attributeRef>
+</usedAttributes>
 </identifier>
 </identifiers>
 </Entity>

@@ -1,0 +1,124 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="E9905BB8-A1B5-9DA7-CD45-08C94E81697A" name="Publication">
+<createdBy>jufeg</createdBy>
+<createdTime>2019-09-13 12:23:32 UTC</createdTime>
+<generatorID>D4E6D799-4FB7-7494-60B9-8EAD06684246</generatorID>
+<ownerDesignName>modelo</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_publication" id="F35A1884-DDA4-EF73-7E97-8C6ACD171C1A">
+<createdBy>jufeg</createdBy>
+<createdTime>2019-09-13 12:23:32 UTC</createdTime>
+<commentInRDBMS><![CDATA[identificacdor único y consecutivo para publicación de producto]]></commentInRDBMS>
+<generatorID>6BD1E436-44FA-B387-11E2-CF7982FBD84D</generatorID>
+<ownerDesignName>modelo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="published_at" id="0AFFDE81-5C74-46E9-A86C-889EACB26C04">
+<createdBy>jufeg</createdBy>
+<createdTime>2019-09-13 12:23:32 UTC</createdTime>
+<commentInRDBMS><![CDATA[Fecha de publicación de producto]]></commentInRDBMS>
+<generatorID>8BC4D0E0-31B4-7D9F-D67D-A89FCE30B543</generatorID>
+<ownerDesignName>modelo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="updated_at" id="D6552885-B89E-4779-BB2F-DA7CD17F9C30">
+<createdBy>jufeg</createdBy>
+<createdTime>2019-09-13 12:23:32 UTC</createdTime>
+<commentInRDBMS><![CDATA[Fecha de última actualización en la publicación]]></commentInRDBMS>
+<generatorID>1FDAA19D-972D-D0A6-8983-427AFEB5FE15</generatorID>
+<ownerDesignName>modelo</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="state" id="59EE85D3-1E72-B870-AF1E-B0405C003C71">
+<createdBy>jufeg</createdBy>
+<createdTime>2019-09-13 12:23:32 UTC</createdTime>
+<commentInRDBMS><![CDATA[Estado de la publicación. 
+Puede ser:
+-Habilitado.
+-Deshabilitado.
+-Baneado.
+]]></commentInRDBMS>
+<generatorID>27A65CAA-AC5F-97B8-BD52-6A795767578D</generatorID>
+<ownerDesignName>modelo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 CHAR</dataTypeSize>
+<ownDataTypeParameters>20 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="User_id_user" id="36E52067-03C4-EB07-53B1-DA9BC6A12310">
+<createdBy>jufeg</createdBy>
+<createdTime>2019-09-13 12:23:32 UTC</createdTime>
+<generatorID>AB9EB505-83EE-2E9E-E1F8-D9AB3826463E</generatorID>
+<ownerDesignName>modelo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="268217AB-FD29-3587-EE55-8A55D49F7AC2" referredColumn="6F35A3C3-F29E-B2FB-DB8D-38AD821202EF"/>
+</associations>
+</Column>
+<Column name="User_cell_phone" id="A03FD1A3-059C-5680-04E9-5B10D2BB6124">
+<createdBy>jufeg</createdBy>
+<createdTime>2019-09-13 12:23:32 UTC</createdTime>
+<generatorID>42EE9696-D7CD-AE35-FED8-8637FDB4B6F4</generatorID>
+<ownerDesignName>modelo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>25 CHAR</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="268217AB-FD29-3587-EE55-8A55D49F7AC2" referredColumn="0CA6A996-A197-3B18-194D-2A84571C9C36"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="CBCB2250-383B-42FB-6156-41C0AD0AE05A" name="Publication_PK">
+<createdBy>jufeg</createdBy>
+<createdTime>2019-09-13 12:23:32 UTC</createdTime>
+<generatorID>1511205D-CC62-5FA1-1A52-FCB5AEC15210</generatorID>
+<ownerDesignName>modelo</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F35A1884-DDA4-EF73-7E97-8C6ACD171C1A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B3C99A7E-07A7-F1FE-9D7D-1CBC31C91682" name="Publication_User_FK">
+<createdBy>jufeg</createdBy>
+<createdTime>2019-09-13 12:23:32 UTC</createdTime>
+<generatorID>5310A65E-ABD3-37E4-3701-768975BF7B9A</generatorID>
+<ownerDesignName>modelo</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="36E52067-03C4-EB07-53B1-DA9BC6A12310"/>
+<colUsage columnID="A03FD1A3-059C-5680-04E9-5B10D2BB6124"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
