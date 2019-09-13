@@ -10,7 +10,7 @@
 <identifying>true</identifying>
 <nameOnSource>Has</nameOnSource>
 <nameOnTarget>Belongs</nameOnTarget>
-<optionalSource>true</optionalSource>
+<optionalSource>false</optionalSource>
 <optionalTarget>false</optionalTarget>
 <sourceCardinality>1</sourceCardinality>
 <sourceEntity>85EAE289-18B6-703D-3A70-D75C5CE5EAFF</sourceEntity>

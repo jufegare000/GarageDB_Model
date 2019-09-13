@@ -4,12 +4,12 @@
 <createdTime>2019-09-08 18:42:31 UTC</createdTime>
 <ownerDesignName>modelo</ownerDesignName>
 <engineerTo>
-<item key="EED47A9C-CC1C-E50E-E0AF-DAE849A859D6" value="true"/>
+<item key="D4F50DBE-2C00-ABA7-1774-C9F9303777C9" value="true"/>
 </engineerTo>
 <sourcePk>80936B42-DBD4-3B28-FF16-0DBCC4EBACA1</sourcePk>
 <identifying>false</identifying>
-<nameOnSource>contains</nameOnSource>
-<nameOnTarget>belongs to</nameOnTarget>
+<nameOnSource>describes</nameOnSource>
+<nameOnTarget>Belongs</nameOnTarget>
 <optionalSource>true</optionalSource>
 <optionalTarget>false</optionalTarget>
 <sourceCardinality>1</sourceCardinality>

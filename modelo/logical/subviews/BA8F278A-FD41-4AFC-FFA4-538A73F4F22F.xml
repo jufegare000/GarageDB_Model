@@ -419,21 +419,21 @@
 <lineWidth>1</lineWidth>
 <sourceLabel class="oracle.dbtools.crest.model.design.Label">
 <site>0</site>
-<labelBounds x="1477" y="729" width="32" height="33"/>
+<labelBounds x="1509" y="642" width="32" height="33"/>
 <noBackgroundColor>true</noBackgroundColor>
 <noForegroundColor>true</noForegroundColor>
 </sourceLabel>
 <targetLabel class="oracle.dbtools.crest.model.design.Label">
 <site>2</site>
-<labelBounds x="1743" y="943" width="53" height="32"/>
+<labelBounds x="1758" y="943" width="53" height="32"/>
 <noBackgroundColor>true</noBackgroundColor>
 <noForegroundColor>true</noForegroundColor>
 </targetLabel>
 <points>
-<point x="1477" y="682"/>
-<point x="1477" y="735"/>
-<point x="1743" y="736"/>
-<point x="1743" y="989"/>
+<point x="1499" y="675"/>
+<point x="1758" y="675"/>
+<point x="1758" y="736"/>
+<point x="1758" y="989"/>
 </points>
 </Connector>
 <Connector class="oracle.dbtools.crest.swingui.logical.TVRelation" oid="8867B6A5-5DCE-3417-86D5-F8CBB20D8886" otype="Relation" vid_source="E2F3B414-48BF-CCD6-9BFA-731E12302F8C" vid_target="C7ABF8F4-6E72-7875-3E94-53920D07C777">

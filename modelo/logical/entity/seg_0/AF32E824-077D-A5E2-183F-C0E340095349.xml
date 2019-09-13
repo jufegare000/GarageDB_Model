@@ -4,7 +4,7 @@
 <createdTime>2019-09-08 18:18:22 UTC</createdTime>
 <ownerDesignName>modelo</ownerDesignName>
 <engineerTo>
-<item key="AC5FA8CD-F6BE-E4D2-E659-26D63CBB5084" value="true"/>
+<item key="D4F50DBE-2C00-ABA7-1774-C9F9303777C9" value="true"/>
 </engineerTo>
 <adequatelyNormalized>NO</adequatelyNormalized>
 <expectedVolumes>0</expectedVolumes>
@@ -21,7 +21,7 @@
 <commentInRDBMS><![CDATA[Código de la característica que la identifica]]></commentInRDBMS>
 <ownerDesignName>modelo</ownerDesignName>
 <engineerTo>
-<item key="AC5FA8CD-F6BE-E4D2-E659-26D63CBB5084" value="true"/>
+<item key="D4F50DBE-2C00-ABA7-1774-C9F9303777C9" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -35,7 +35,7 @@
 <commentInRDBMS><![CDATA[Nombre, descripción o título que describe una característica de un producto correspondiente a una categoría]]></commentInRDBMS>
 <ownerDesignName>modelo</ownerDesignName>
 <engineerTo>
-<item key="AC5FA8CD-F6BE-E4D2-E659-26D63CBB5084" value="true"/>
+<item key="D4F50DBE-2C00-ABA7-1774-C9F9303777C9" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -49,7 +49,7 @@
 <commentInRDBMS><![CDATA[Tipo de catacterística]]></commentInRDBMS>
 <ownerDesignName>modelo</ownerDesignName>
 <engineerTo>
-<item key="AC5FA8CD-F6BE-E4D2-E659-26D63CBB5084" value="true"/>
+<item key="D4F50DBE-2C00-ABA7-1774-C9F9303777C9" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -64,7 +64,7 @@
 <createdTime>2019-09-08 18:19:47 UTC</createdTime>
 <ownerDesignName>modelo</ownerDesignName>
 <engineerTo>
-<item key="AC5FA8CD-F6BE-E4D2-E659-26D63CBB5084" value="true"/>
+<item key="D4F50DBE-2C00-ABA7-1774-C9F9303777C9" value="true"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>
