@@ -70,7 +70,7 @@
 <dataTypeSize>100 CHAR</dataTypeSize>
 <ownDataTypeParameters>100 CHAR,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="coast_kilometer" id="54FD2B77-25E9-FF50-4DED-0B688C81DB0B">
+<Attribute name="km_charge" id="54FD2B77-25E9-FF50-4DED-0B688C81DB0B">
 <createdBy>jufeg</createdBy>
 <createdTime>2019-09-10 14:10:01 UTC</createdTime>
 <commentInRDBMS><![CDATA[Precio que cuesta cada kilómetro de transporte por el vehículo]]></commentInRDBMS>

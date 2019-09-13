@@ -103,6 +103,21 @@ Puede ser:
 <dataTypeSize>25 CHAR</dataTypeSize>
 <ownDataTypeParameters>25 CHAR,,</ownDataTypeParameters>
 </Attribute>
+<Attribute name="id_question" id="1237F2E0-5F07-ABFA-8D38-5F4EC05A2C89">
+<createdBy>jufeg</createdBy>
+<createdTime>2019-09-13 13:53:00 UTC</createdTime>
+<generatorID>2CD3816E-A5FF-C082-8340-6E1383D86352</generatorID>
+<ownerDesignName>modelo</ownerDesignName>
+<engineerTo>
+<item key="F0705694-54BD-D5CC-E041-F19110150CAF" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>BB381871-64E8-9095-59CA-96171939A0DF</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
 <identifier id="1511205D-CC62-5FA1-1A52-FCB5AEC15210" name="Publication PK">
