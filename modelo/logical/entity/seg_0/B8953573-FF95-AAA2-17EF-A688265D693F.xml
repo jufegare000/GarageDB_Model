@@ -3,8 +3,9 @@
 <createdBy>jufeg</createdBy>
 <createdTime>2019-09-10 14:06:43 UTC</createdTime>
 <ownerDesignName>modelo</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
 <engineerTo>
-<item key="F0705694-54BD-D5CC-E041-F19110150CAF" value="true"/>
+<item key="87341601-4870-5C46-A48C-A6B5F5124CF1" value="false"/>
 </engineerTo>
 <adequatelyNormalized>NO</adequatelyNormalized>
 <expectedVolumes>0</expectedVolumes>
@@ -20,8 +21,9 @@
 <createdTime>2019-09-10 14:06:56 UTC</createdTime>
 <commentInRDBMS><![CDATA[Id único y consecutivo para vehículos registrados en el sistema]]></commentInRDBMS>
 <ownerDesignName>modelo</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
 <engineerTo>
-<item key="F0705694-54BD-D5CC-E041-F19110150CAF" value="true"/>
+<item key="87341601-4870-5C46-A48C-A6B5F5124CF1" value="false"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -33,8 +35,9 @@
 <createdTime>2019-09-10 14:08:14 UTC</createdTime>
 <commentInRDBMS><![CDATA[Marca de vehículo]]></commentInRDBMS>
 <ownerDesignName>modelo</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
 <engineerTo>
-<item key="F0705694-54BD-D5CC-E041-F19110150CAF" value="true"/>
+<item key="87341601-4870-5C46-A48C-A6B5F5124CF1" value="false"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -47,8 +50,9 @@
 <createdTime>2019-09-10 14:08:35 UTC</createdTime>
 <commentInRDBMS><![CDATA[placa del vehículo]]></commentInRDBMS>
 <ownerDesignName>modelo</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
 <engineerTo>
-<item key="F0705694-54BD-D5CC-E041-F19110150CAF" value="true"/>
+<item key="87341601-4870-5C46-A48C-A6B5F5124CF1" value="false"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -61,8 +65,9 @@
 <createdTime>2019-09-10 14:09:13 UTC</createdTime>
 <commentInRDBMS><![CDATA[Color de vehículo]]></commentInRDBMS>
 <ownerDesignName>modelo</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
 <engineerTo>
-<item key="F0705694-54BD-D5CC-E041-F19110150CAF" value="true"/>
+<item key="87341601-4870-5C46-A48C-A6B5F5124CF1" value="false"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -75,8 +80,9 @@
 <createdTime>2019-09-10 14:10:01 UTC</createdTime>
 <commentInRDBMS><![CDATA[Precio que cuesta cada kilómetro de transporte por el vehículo]]></commentInRDBMS>
 <ownerDesignName>modelo</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
 <engineerTo>
-<item key="F0705694-54BD-D5CC-E041-F19110150CAF" value="true"/>
+<item key="87341601-4870-5C46-A48C-A6B5F5124CF1" value="false"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -88,8 +94,9 @@
 <createdTime>2019-09-10 14:12:45 UTC</createdTime>
 <commentInRDBMS><![CDATA[Fecha de vencimiento  de seguro obligatorio]]></commentInRDBMS>
 <ownerDesignName>modelo</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
 <engineerTo>
-<item key="F0705694-54BD-D5CC-E041-F19110150CAF" value="true"/>
+<item key="87341601-4870-5C46-A48C-A6B5F5124CF1" value="false"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -101,26 +108,13 @@
 <createdTime>2019-09-10 14:12:54 UTC</createdTime>
 <commentInRDBMS><![CDATA[Fecha de vencimiento de tecnomecánica]]></commentInRDBMS>
 <ownerDesignName>modelo</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
 <engineerTo>
-<item key="F0705694-54BD-D5CC-E041-F19110150CAF" value="true"/>
+<item key="87341601-4870-5C46-A48C-A6B5F5124CF1" value="false"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT007</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="id_courier" id="213B04E2-5BBF-97D2-910B-699C1ADE3991">
-<createdBy>jufeg</createdBy>
-<createdTime>2019-09-10 14:14:45 UTC</createdTime>
-<generatorID>C6F7E051-9B72-2639-7CB1-04603662066B</generatorID>
-<ownerDesignName>modelo</ownerDesignName>
-<engineerTo>
-<item key="F0705694-54BD-D5CC-E041-F19110150CAF" value="true"/>
-</engineerTo>
-<referedAttribute>309974D2-5444-8ED1-C536-3D206E77E60C</referedAttribute>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT019</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="license_number" id="D15D8AB7-FD26-38AD-D926-71564EB89AF0">
@@ -128,15 +122,16 @@
 <createdTime>2019-09-11 02:59:28 UTC</createdTime>
 <generatorID>506193D3-B2F4-2913-8B87-88B07F503105</generatorID>
 <ownerDesignName>modelo</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
 <engineerTo>
-<item key="F0705694-54BD-D5CC-E041-F19110150CAF" value="true"/>
+<item key="87341601-4870-5C46-A48C-A6B5F5124CF1" value="false"/>
 </engineerTo>
 <referedAttribute>2804406A-76E2-A516-BAD0-F3C0E3A002AA</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
 <dataTypeSize>50</dataTypeSize>
-<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
@@ -144,8 +139,9 @@
 <createdBy>jufeg</createdBy>
 <createdTime>2019-09-10 14:06:59 UTC</createdTime>
 <ownerDesignName>modelo</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
 <engineerTo>
-<item key="F0705694-54BD-D5CC-E041-F19110150CAF" value="true"/>
+<item key="87341601-4870-5C46-A48C-A6B5F5124CF1" value="false"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>
