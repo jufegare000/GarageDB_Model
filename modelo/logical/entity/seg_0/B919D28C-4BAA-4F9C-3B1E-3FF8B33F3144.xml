@@ -3,8 +3,9 @@
 <createdBy>jufeg</createdBy>
 <createdTime>2019-09-10 13:42:49 UTC</createdTime>
 <ownerDesignName>modelo</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
 <engineerTo>
-<item key="F0705694-54BD-D5CC-E041-F19110150CAF" value="true"/>
+<item key="87341601-4870-5C46-A48C-A6B5F5124CF1" value="false"/>
 </engineerTo>
 <adequatelyNormalized>NO</adequatelyNormalized>
 <expectedVolumes>0</expectedVolumes>
@@ -20,8 +21,9 @@
 <createdTime>2019-09-10 13:44:51 UTC</createdTime>
 <commentInRDBMS><![CDATA[Id de las ordenes de transporte único y consecutivo]]></commentInRDBMS>
 <ownerDesignName>modelo</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
 <engineerTo>
-<item key="F0705694-54BD-D5CC-E041-F19110150CAF" value="true"/>
+<item key="87341601-4870-5C46-A48C-A6B5F5124CF1" value="false"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -34,8 +36,9 @@
 <createdTime>2019-09-10 13:44:00 UTC</createdTime>
 <commentInRDBMS><![CDATA[Dirección del vendedor, ésta puede ser la que el usuario ingresó al momento de registrarse en la plataforma o una nueva actualizada.]]></commentInRDBMS>
 <ownerDesignName>modelo</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
 <engineerTo>
-<item key="F0705694-54BD-D5CC-E041-F19110150CAF" value="true"/>
+<item key="87341601-4870-5C46-A48C-A6B5F5124CF1" value="false"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -48,8 +51,9 @@
 <createdTime>2019-09-10 13:47:32 UTC</createdTime>
 <commentInRDBMS><![CDATA[Dirección del comprador, ésta puede ser la que el usuario ingresó al momento de registrarse en la plataforma o una nueva actualizada.]]></commentInRDBMS>
 <ownerDesignName>modelo</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
 <engineerTo>
-<item key="F0705694-54BD-D5CC-E041-F19110150CAF" value="true"/>
+<item key="87341601-4870-5C46-A48C-A6B5F5124CF1" value="false"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -62,8 +66,9 @@
 <createdTime>2019-09-10 13:57:16 UTC</createdTime>
 <generatorID>0AF54A93-DF6D-FE94-5B5D-05A05B75B1E9</generatorID>
 <ownerDesignName>modelo</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
 <engineerTo>
-<item key="F0705694-54BD-D5CC-E041-F19110150CAF" value="true"/>
+<item key="87341601-4870-5C46-A48C-A6B5F5124CF1" value="false"/>
 </engineerTo>
 <referedAttribute>2F4215B7-E017-F3A6-3692-3884D8E29FAE</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
@@ -76,23 +81,25 @@
 <createdTime>2019-09-11 02:56:28 UTC</createdTime>
 <generatorID>1FAD3FCB-97BC-8374-ACFA-7E1FC9439CED</generatorID>
 <ownerDesignName>modelo</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
 <engineerTo>
-<item key="F0705694-54BD-D5CC-E041-F19110150CAF" value="true"/>
+<item key="87341601-4870-5C46-A48C-A6B5F5124CF1" value="false"/>
 </engineerTo>
 <referedAttribute>2804406A-76E2-A516-BAD0-F3C0E3A002AA</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>50</dataTypeSize>
-<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="id_devolution" id="BF2FA8FF-F8DA-B479-F2B8-11D8C6914706">
 <createdBy>jufeg</createdBy>
 <createdTime>2019-09-11 21:19:10 UTC</createdTime>
 <generatorID>D6FB5958-91E2-17C3-9DED-F710001CAB78</generatorID>
 <ownerDesignName>modelo</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
 <engineerTo>
-<item key="F0705694-54BD-D5CC-E041-F19110150CAF" value="true"/>
+<item key="87341601-4870-5C46-A48C-A6B5F5124CF1" value="false"/>
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <referedAttribute>842A3FD1-831B-179A-E8A8-8EBBE89B230D</referedAttribute>
@@ -101,14 +108,33 @@
 <logicalDatatype>LOGDT019</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
+<Attribute name="state_order" id="A6C9A2D7-30C3-DCC3-2CED-E5D6BF0F2155">
+<createdBy>jufeg</createdBy>
+<createdTime>2019-09-13 14:18:27 UTC</createdTime>
+<commentInRDBMS><![CDATA[La orden de pago puede tener los siguientes estados:
+-Pagado: estado inicial cuando se efectúa el pago
+-Asignado: El producto fue asignado a  un courier
+-Recibido: El vendedor entrega el producto al courier
+-Entregado: El courier entrega su producto al comprador.]]></commentInRDBMS>
+<ownerDesignName>modelo</ownerDesignName>
+<engineerTo>
+<item key="87341601-4870-5C46-A48C-A6B5F5124CF1" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+</Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
 <identifier id="71883DE7-89A0-5AA9-3282-F57CDFC03E58" name="TransportOrder PK">
 <createdBy>jufeg</createdBy>
 <createdTime>2019-09-10 13:46:55 UTC</createdTime>
 <ownerDesignName>modelo</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
 <engineerTo>
-<item key="F0705694-54BD-D5CC-E041-F19110150CAF" value="true"/>
+<item key="87341601-4870-5C46-A48C-A6B5F5124CF1" value="false"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>
