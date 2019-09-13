@@ -40,19 +40,6 @@
 <logicalDatatype>LogDes-1768A872-F385-FDBA-D95E-0CB63F5908E2@LOGDT10045</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="upload_date" id="6D2CE643-8552-B182-1048-EBDC2AF1CF28">
-<createdBy>jufeg</createdBy>
-<createdTime>2019-09-08 17:50:30 UTC</createdTime>
-<commentInRDBMS><![CDATA[Fecha de carga al sistema]]></commentInRDBMS>
-<ownerDesignName>modelo</ownerDesignName>
-<engineerTo>
-<item key="F0705694-54BD-D5CC-E041-F19110150CAF" value="true"/>
-</engineerTo>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT007</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
 <Attribute name="consecutive" id="15636DA4-D347-6A09-855A-92FE49B5B442">
 <createdBy>jufeg</createdBy>
 <createdTime>2019-09-08 17:51:15 UTC</createdTime>

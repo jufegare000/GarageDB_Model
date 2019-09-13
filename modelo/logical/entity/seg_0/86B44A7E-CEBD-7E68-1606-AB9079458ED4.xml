@@ -4,7 +4,7 @@
 <createdTime>2019-09-08 18:09:47 UTC</createdTime>
 <ownerDesignName>modelo</ownerDesignName>
 <engineerTo>
-<item key="D4F50DBE-2C00-ABA7-1774-C9F9303777C9" value="true"/>
+<item key="F0705694-54BD-D5CC-E041-F19110150CAF" value="true"/>
 </engineerTo>
 <adequatelyNormalized>NO</adequatelyNormalized>
 <expectedVolumes>0</expectedVolumes>
@@ -21,7 +21,7 @@
 <commentInRDBMS><![CDATA[Código único que identifica la categoría de producto en el sistema]]></commentInRDBMS>
 <ownerDesignName>modelo</ownerDesignName>
 <engineerTo>
-<item key="D4F50DBE-2C00-ABA7-1774-C9F9303777C9" value="true"/>
+<item key="F0705694-54BD-D5CC-E041-F19110150CAF" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -35,13 +35,13 @@
 <commentInRDBMS><![CDATA[Nombre de la categoría]]></commentInRDBMS>
 <ownerDesignName>modelo</ownerDesignName>
 <engineerTo>
-<item key="D4F50DBE-2C00-ABA7-1774-C9F9303777C9" value="true"/>
+<item key="F0705694-54BD-D5CC-E041-F19110150CAF" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>category_name CHAR</dataTypeSize>
-<ownDataTypeParameters>category_name CHAR,,</ownDataTypeParameters>
+<dataTypeSize>100 CHAR</dataTypeSize>
+<ownDataTypeParameters>100 CHAR,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="parent_category" id="9D574776-1172-8969-88F5-6C374B2C6CBA">
 <createdBy>jufeg</createdBy>
@@ -49,7 +49,7 @@
 <commentInRDBMS><![CDATA[Código de categoría padre que la contiene]]></commentInRDBMS>
 <ownerDesignName>modelo</ownerDesignName>
 <engineerTo>
-<item key="D4F50DBE-2C00-ABA7-1774-C9F9303777C9" value="true"/>
+<item key="F0705694-54BD-D5CC-E041-F19110150CAF" value="true"/>
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
@@ -64,7 +64,7 @@
 <generatorID>8C8AF496-6792-7932-D1E3-8F335324FD5B</generatorID>
 <ownerDesignName>modelo</ownerDesignName>
 <engineerTo>
-<item key="D4F50DBE-2C00-ABA7-1774-C9F9303777C9" value="true"/>
+<item key="F0705694-54BD-D5CC-E041-F19110150CAF" value="true"/>
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <referedAttribute>31F21D99-DAE8-11C2-3FC3-073763FD13F5</referedAttribute>
@@ -72,7 +72,7 @@
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
 <dataTypeSize>8 CHAR</dataTypeSize>
-<ownDataTypeParameters>8 CHAR,,</ownDataTypeParameters>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
@@ -81,7 +81,7 @@
 <createdTime>2019-09-08 18:10:55 UTC</createdTime>
 <ownerDesignName>modelo</ownerDesignName>
 <engineerTo>
-<item key="D4F50DBE-2C00-ABA7-1774-C9F9303777C9" value="true"/>
+<item key="F0705694-54BD-D5CC-E041-F19110150CAF" value="true"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>
