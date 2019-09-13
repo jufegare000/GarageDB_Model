@@ -4,7 +4,7 @@
 <createdTime>2019-09-07 18:05:36 UTC</createdTime>
 <ownerDesignName>modelo</ownerDesignName>
 <engineerTo>
-<item key="EED47A9C-CC1C-E50E-E0AF-DAE849A859D6" value="true"/>
+<item key="D4F50DBE-2C00-ABA7-1774-C9F9303777C9" value="true"/>
 </engineerTo>
 <adequatelyNormalized>NO</adequatelyNormalized>
 <expectedVolumes>0</expectedVolumes>
@@ -21,7 +21,7 @@
 <commentInRDBMS><![CDATA[identificacdor único y consecutivo para publicación de producto]]></commentInRDBMS>
 <ownerDesignName>modelo</ownerDesignName>
 <engineerTo>
-<item key="EED47A9C-CC1C-E50E-E0AF-DAE849A859D6" value="true"/>
+<item key="D4F50DBE-2C00-ABA7-1774-C9F9303777C9" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -34,7 +34,7 @@
 <commentInRDBMS><![CDATA[Fecha de publicación de producto]]></commentInRDBMS>
 <ownerDesignName>modelo</ownerDesignName>
 <engineerTo>
-<item key="EED47A9C-CC1C-E50E-E0AF-DAE849A859D6" value="true"/>
+<item key="D4F50DBE-2C00-ABA7-1774-C9F9303777C9" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -47,7 +47,7 @@
 <commentInRDBMS><![CDATA[Fecha de última actualización en la publicación]]></commentInRDBMS>
 <ownerDesignName>modelo</ownerDesignName>
 <engineerTo>
-<item key="EED47A9C-CC1C-E50E-E0AF-DAE849A859D6" value="true"/>
+<item key="D4F50DBE-2C00-ABA7-1774-C9F9303777C9" value="true"/>
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
@@ -66,7 +66,7 @@ Puede ser:
 ]]></commentInRDBMS>
 <ownerDesignName>modelo</ownerDesignName>
 <engineerTo>
-<item key="EED47A9C-CC1C-E50E-E0AF-DAE849A859D6" value="true"/>
+<item key="D4F50DBE-2C00-ABA7-1774-C9F9303777C9" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -80,7 +80,7 @@ Puede ser:
 <generatorID>5310A65E-ABD3-37E4-3701-768975BF7B9A</generatorID>
 <ownerDesignName>modelo</ownerDesignName>
 <engineerTo>
-<item key="EED47A9C-CC1C-E50E-E0AF-DAE849A859D6" value="true"/>
+<item key="D4F50DBE-2C00-ABA7-1774-C9F9303777C9" value="true"/>
 </engineerTo>
 <referedAttribute>AFD64C8A-8039-87D5-084B-116BAE28CF97</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
@@ -94,7 +94,7 @@ Puede ser:
 <generatorID>5310A65E-ABD3-37E4-3701-768975BF7B9A</generatorID>
 <ownerDesignName>modelo</ownerDesignName>
 <engineerTo>
-<item key="EED47A9C-CC1C-E50E-E0AF-DAE849A859D6" value="true"/>
+<item key="D4F50DBE-2C00-ABA7-1774-C9F9303777C9" value="true"/>
 </engineerTo>
 <referedAttribute>69A1F790-6FC7-ABAE-A426-0BC2E72BD2CD</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
@@ -110,13 +110,11 @@ Puede ser:
 <createdTime>2019-09-07 18:06:07 UTC</createdTime>
 <ownerDesignName>modelo</ownerDesignName>
 <engineerTo>
-<item key="EED47A9C-CC1C-E50E-E0AF-DAE849A859D6" value="true"/>
+<item key="D4F50DBE-2C00-ABA7-1774-C9F9303777C9" value="true"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>
 <attributeRef>6BD1E436-44FA-B387-11E2-CF7982FBD84D</attributeRef>
-<attributeRef>AB9EB505-83EE-2E9E-E1F8-D9AB3826463E</attributeRef>
-<attributeRef>42EE9696-D7CD-AE35-FED8-8637FDB4B6F4</attributeRef>
 </usedAttributes>
 </identifier>
 </identifiers>

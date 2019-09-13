@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="CB2D955C-5FC9-11F0-2CE7-FFCAA6BFD5DF" containerWithKeyObject="51B4604A-CF91-F76C-6B88-5FD2D46804BD" localFKIndex="4B25E5AA-E1CA-8D9D-9CE8-B51969047C11" name="ProductByFeature_Feature_FK">
+<createdBy>jufeg</createdBy>
+<createdTime>2019-09-11 22:49:40 UTC</createdTime>
+<generatorID>078D1C5A-395D-DB73-79D5-5F7D3D84BF1B</generatorID>
+<ownerDesignName>modelo</ownerDesignName>
+<referredTableLongName>Feature</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>FF07C3F7-A24B-B796-D38E-18E2C02EF545</referredTableID>
+<keyObject>D528283E-DAEC-8E7B-97AF-7CB3D84B6464</keyObject>
+<referredKeyID>D528283E-DAEC-8E7B-97AF-7CB3D84B6464</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>code_feature</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

@@ -4,7 +4,7 @@
 <createdTime>2019-09-11 21:13:00 UTC</createdTime>
 <ownerDesignName>modelo</ownerDesignName>
 <engineerTo>
-<item key="EED47A9C-CC1C-E50E-E0AF-DAE849A859D6" value="true"/>
+<item key="D4F50DBE-2C00-ABA7-1774-C9F9303777C9" value="true"/>
 </engineerTo>
 <adequatelyNormalized>NO</adequatelyNormalized>
 <expectedVolumes>0</expectedVolumes>
@@ -21,7 +21,7 @@
 <commentInRDBMS><![CDATA[Id de la devolución]]></commentInRDBMS>
 <ownerDesignName>modelo</ownerDesignName>
 <engineerTo>
-<item key="EED47A9C-CC1C-E50E-E0AF-DAE849A859D6" value="true"/>
+<item key="D4F50DBE-2C00-ABA7-1774-C9F9303777C9" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -34,7 +34,7 @@
 <commentInRDBMS><![CDATA[Razón por la cuál se devuleve el producto]]></commentInRDBMS>
 <ownerDesignName>modelo</ownerDesignName>
 <engineerTo>
-<item key="EED47A9C-CC1C-E50E-E0AF-DAE849A859D6" value="true"/>
+<item key="D4F50DBE-2C00-ABA7-1774-C9F9303777C9" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -48,7 +48,7 @@
 <commentInRDBMS><![CDATA[Tipo de devolución ]]></commentInRDBMS>
 <ownerDesignName>modelo</ownerDesignName>
 <engineerTo>
-<item key="EED47A9C-CC1C-E50E-E0AF-DAE849A859D6" value="true"/>
+<item key="D4F50DBE-2C00-ABA7-1774-C9F9303777C9" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -62,7 +62,7 @@
 <generatorID>351580CB-A0B4-FFE8-1500-37BFE3250A94</generatorID>
 <ownerDesignName>modelo</ownerDesignName>
 <engineerTo>
-<item key="EED47A9C-CC1C-E50E-E0AF-DAE849A859D6" value="true"/>
+<item key="D4F50DBE-2C00-ABA7-1774-C9F9303777C9" value="true"/>
 </engineerTo>
 <referedAttribute>2F4215B7-E017-F3A6-3692-3884D8E29FAE</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
@@ -76,7 +76,7 @@
 <commentInRDBMS><![CDATA[dinero devuelto al usaurio compradro]]></commentInRDBMS>
 <ownerDesignName>modelo</ownerDesignName>
 <engineerTo>
-<item key="EED47A9C-CC1C-E50E-E0AF-DAE849A859D6" value="true"/>
+<item key="D4F50DBE-2C00-ABA7-1774-C9F9303777C9" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -89,57 +89,12 @@
 <generatorID>4F170A7F-EECE-50FA-FD3F-4D38EF3B20DE</generatorID>
 <ownerDesignName>modelo</ownerDesignName>
 <engineerTo>
-<item key="EED47A9C-CC1C-E50E-E0AF-DAE849A859D6" value="true"/>
+<item key="D4F50DBE-2C00-ABA7-1774-C9F9303777C9" value="true"/>
 </engineerTo>
 <referedAttribute>7984BC66-378D-9607-DA8A-8DD153C3FE8A</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="id_publication" id="DFA85600-F9FC-95A7-5233-962ADC6C4288">
-<createdBy>jufeg</createdBy>
-<createdTime>2019-09-11 21:25:47 UTC</createdTime>
-<generatorID>4F170A7F-EECE-50FA-FD3F-4D38EF3B20DE</generatorID>
-<ownerDesignName>modelo</ownerDesignName>
-<engineerTo>
-<item key="EED47A9C-CC1C-E50E-E0AF-DAE849A859D6" value="true"/>
-</engineerTo>
-<referedAttribute>A4D1A598-929E-293B-5675-C025DADF65F4</referedAttribute>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT019</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="id_user" id="6CA3D74D-1032-EAD6-F144-CB684679EAC8">
-<createdBy>jufeg</createdBy>
-<createdTime>2019-09-11 21:25:47 UTC</createdTime>
-<commentInRDBMS><![CDATA[ID del usuario vendedor]]></commentInRDBMS>
-<generatorID>4F170A7F-EECE-50FA-FD3F-4D38EF3B20DE</generatorID>
-<ownerDesignName>modelo</ownerDesignName>
-<engineerTo>
-<item key="EED47A9C-CC1C-E50E-E0AF-DAE849A859D6" value="true"/>
-</engineerTo>
-<referedAttribute>A6409DB6-8918-1382-D68F-EDFDED3FEAD6</referedAttribute>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT019</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="cell_phone" id="61A31981-8B40-8856-23CC-0A81ECFE305D">
-<createdBy>jufeg</createdBy>
-<createdTime>2019-09-11 21:25:47 UTC</createdTime>
-<commentInRDBMS><![CDATA[Celular de usuario vendedor]]></commentInRDBMS>
-<generatorID>4F170A7F-EECE-50FA-FD3F-4D38EF3B20DE</generatorID>
-<ownerDesignName>modelo</ownerDesignName>
-<engineerTo>
-<item key="EED47A9C-CC1C-E50E-E0AF-DAE849A859D6" value="true"/>
-</engineerTo>
-<referedAttribute>AFAD8C92-1C1F-53DA-CC61-51B61DF980A1</referedAttribute>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>25 CHAR</dataTypeSize>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="id_user1" id="93A501A3-8076-A84D-5E89-FC2F428E7181">
@@ -149,7 +104,7 @@
 <generatorID>4F170A7F-EECE-50FA-FD3F-4D38EF3B20DE</generatorID>
 <ownerDesignName>modelo</ownerDesignName>
 <engineerTo>
-<item key="EED47A9C-CC1C-E50E-E0AF-DAE849A859D6" value="true"/>
+<item key="D4F50DBE-2C00-ABA7-1774-C9F9303777C9" value="true"/>
 </engineerTo>
 <referedAttribute>77BB5856-2CD0-F60E-403E-F9042193311D</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
@@ -164,14 +119,14 @@
 <generatorID>4F170A7F-EECE-50FA-FD3F-4D38EF3B20DE</generatorID>
 <ownerDesignName>modelo</ownerDesignName>
 <engineerTo>
-<item key="EED47A9C-CC1C-E50E-E0AF-DAE849A859D6" value="true"/>
+<item key="D4F50DBE-2C00-ABA7-1774-C9F9303777C9" value="true"/>
 </engineerTo>
 <referedAttribute>82A763EB-519C-0091-5071-EF6101FA8EBB</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
 <dataTypeSize>25 CHAR</dataTypeSize>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<ownDataTypeParameters>25 CHAR,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
@@ -180,7 +135,7 @@
 <createdTime>2019-09-11 21:13:20 UTC</createdTime>
 <ownerDesignName>modelo</ownerDesignName>
 <engineerTo>
-<item key="EED47A9C-CC1C-E50E-E0AF-DAE849A859D6" value="true"/>
+<item key="D4F50DBE-2C00-ABA7-1774-C9F9303777C9" value="true"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>

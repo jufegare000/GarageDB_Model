@@ -1,0 +1,93 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="419B78C0-9E2E-D45A-35C0-BBD522EED6E4" name="Category">
+<createdBy>jufeg</createdBy>
+<createdTime>2019-09-11 22:49:39 UTC</createdTime>
+<generatorID>86B44A7E-CEBD-7E68-1606-AB9079458ED4</generatorID>
+<ownerDesignName>modelo</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="cod_category" id="142332F8-F79B-AFEC-EBE3-455AD6C0B2AD">
+<createdBy>jufeg</createdBy>
+<createdTime>2019-09-11 22:49:39 UTC</createdTime>
+<commentInRDBMS><![CDATA[Código único que identifica la categoría de producto en el sistema]]></commentInRDBMS>
+<generatorID>31F21D99-DAE8-11C2-3FC3-073763FD13F5</generatorID>
+<ownerDesignName>modelo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>8 CHAR</dataTypeSize>
+<ownDataTypeParameters>8 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="category_title" id="33CB5C17-EACF-860B-5E44-BBC16989B551">
+<createdBy>jufeg</createdBy>
+<createdTime>2019-09-11 22:49:39 UTC</createdTime>
+<commentInRDBMS><![CDATA[Nombre de la categoría]]></commentInRDBMS>
+<generatorID>96F50D3D-C614-67B1-1CFB-EC27329F4AA7</generatorID>
+<ownerDesignName>modelo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>category_name CHAR</dataTypeSize>
+<ownDataTypeParameters>category_name CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="parent_category" id="E5E856C7-DBD9-0DDA-3771-FC09A9D0707D">
+<createdBy>jufeg</createdBy>
+<createdTime>2019-09-11 22:49:39 UTC</createdTime>
+<commentInRDBMS><![CDATA[Código de categoría padre que la contiene]]></commentInRDBMS>
+<generatorID>9D574776-1172-8969-88F5-6C374B2C6CBA</generatorID>
+<ownerDesignName>modelo</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>8 CHAR</dataTypeSize>
+<ownDataTypeParameters>8 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Category_cod_category" id="B41C7130-15F1-8DBD-7C49-517C460D4187">
+<createdBy>jufeg</createdBy>
+<createdTime>2019-09-11 22:49:39 UTC</createdTime>
+<generatorID>9EE584EB-B39E-5EF4-C89C-39194428BEFB</generatorID>
+<ownerDesignName>modelo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>8 CHAR</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="92A2E254-AC58-7A22-BB15-71748109E399" referredColumn="142332F8-F79B-AFEC-EBE3-455AD6C0B2AD"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="15361FF9-83A4-68F6-29B6-BBE2C5125AF6" name="Category_PK">
+<createdBy>jufeg</createdBy>
+<createdTime>2019-09-11 22:49:39 UTC</createdTime>
+<generatorID>80936B42-DBD4-3B28-FF16-0DBCC4EBACA1</generatorID>
+<ownerDesignName>modelo</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="142332F8-F79B-AFEC-EBE3-455AD6C0B2AD"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="180B4435-4BBC-A202-4777-4360015372D9" name="Category_Category_FK">
+<createdBy>jufeg</createdBy>
+<createdTime>2019-09-11 22:49:40 UTC</createdTime>
+<generatorID>8C8AF496-6792-7932-D1E3-8F335324FD5B</generatorID>
+<ownerDesignName>modelo</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B41C7130-15F1-8DBD-7C49-517C460D4187"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

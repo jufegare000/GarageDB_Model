@@ -1,0 +1,21 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Relation_QBP" directorySegmentName="seg_0" id="8867B6A5-5DCE-3417-86D5-F8CBB20D8886">
+<createdBy>jufeg</createdBy>
+<createdTime>2019-09-13 11:52:19 UTC</createdTime>
+<ownerDesignName>modelo</ownerDesignName>
+<engineerTo>
+<item key="D4F50DBE-2C00-ABA7-1774-C9F9303777C9" value="true"/>
+</engineerTo>
+<sourcePk>127848FD-0F06-7836-DB41-F8E54E418609</sourcePk>
+<identifying>true</identifying>
+<nameOnSource>Has</nameOnSource>
+<nameOnTarget>Belongs</nameOnTarget>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>2025E765-4972-4F78-CFD2-6F0B930B2231</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>67E66568-83C0-0217-F3E8-C2D292A33FEE</targetEntity>
+<transferable>true</transferable>
+<deleteRule>CASCADE</deleteRule>
+</Relation>

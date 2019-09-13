@@ -1,10 +1,10 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Relation_Publication_Question" directorySegmentName="seg_0" id="B820551F-9C9D-F5BB-4C73-2FE9470C10DD">
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Relation_PBQ" directorySegmentName="seg_0" id="78B131D3-07E0-8BAB-7E53-9F0B370E5F5C">
 <createdBy>jufeg</createdBy>
-<createdTime>2019-09-10 14:32:11 UTC</createdTime>
+<createdTime>2019-09-13 11:53:33 UTC</createdTime>
 <ownerDesignName>modelo</ownerDesignName>
 <engineerTo>
-<item key="EED47A9C-CC1C-E50E-E0AF-DAE849A859D6" value="true"/>
+<item key="D4F50DBE-2C00-ABA7-1774-C9F9303777C9" value="true"/>
 </engineerTo>
 <sourcePk>1511205D-CC62-5FA1-1A52-FCB5AEC15210</sourcePk>
 <identifying>true</identifying>
@@ -15,7 +15,7 @@
 <sourceCardinality>1</sourceCardinality>
 <sourceEntity>D4E6D799-4FB7-7494-60B9-8EAD06684246</sourceEntity>
 <targetCardinalityString>*</targetCardinalityString>
-<targetEntity>2025E765-4972-4F78-CFD2-6F0B930B2231</targetEntity>
+<targetEntity>67E66568-83C0-0217-F3E8-C2D292A33FEE</targetEntity>
 <transferable>true</transferable>
-<deleteRule>NO ACTION</deleteRule>
+<deleteRule>CASCADE</deleteRule>
 </Relation>
