@@ -53,20 +53,6 @@
 <logicalDatatype>LogDes-1768A872-F385-FDBA-D95E-0CB63F5908E2@LOGDT10045</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="Response" id="83E8C415-819A-663F-2A35-A737B0680060">
-<createdBy>jufeg</createdBy>
-<createdTime>2019-09-10 14:28:24 UTC</createdTime>
-<commentInRDBMS><![CDATA[Respuesta del vendedor sobre la pregunta]]></commentInRDBMS>
-<ownerDesignName>modelo</ownerDesignName>
-<engineerTo>
-<item key="F0705694-54BD-D5CC-E041-F19110150CAF" value="true"/>
-</engineerTo>
-<nullsAllowed>true</nullsAllowed>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LogDes-1768A872-F385-FDBA-D95E-0CB63F5908E2@LOGDT10045</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
 <Attribute name="id_person" id="A573DDC6-10F2-1E1F-BED7-BF853271D40D">
 <createdBy>jufeg</createdBy>
 <createdTime>2019-09-10 14:29:00 UTC</createdTime>
@@ -96,6 +82,34 @@
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
 <dataTypeSize>25 CHAR</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Response" id="83E8C415-819A-663F-2A35-A737B0680060">
+<createdBy>jufeg</createdBy>
+<createdTime>2019-09-10 14:28:24 UTC</createdTime>
+<commentInRDBMS><![CDATA[Respuesta del vendedor sobre la pregunta]]></commentInRDBMS>
+<ownerDesignName>modelo</ownerDesignName>
+<engineerTo>
+<item key="F0705694-54BD-D5CC-E041-F19110150CAF" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LogDes-1768A872-F385-FDBA-D95E-0CB63F5908E2@LOGDT10045</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="response_date" id="020638D2-1439-848F-3CBF-2B2FCBF3A031">
+<createdBy>jufeg</createdBy>
+<createdTime>2019-09-13 13:29:34 UTC</createdTime>
+<commentInRDBMS><![CDATA[fecha de respuesta]]></commentInRDBMS>
+<ownerDesignName>modelo</ownerDesignName>
+<engineerTo>
+<item key="F0705694-54BD-D5CC-E041-F19110150CAF" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
