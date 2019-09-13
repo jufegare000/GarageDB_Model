@@ -4,7 +4,7 @@
 <createdTime>2019-09-08 17:30:29 UTC</createdTime>
 <ownerDesignName>modelo</ownerDesignName>
 <engineerTo>
-<item key="C0343615-C167-F2A2-929C-50E900475776" value="true"/>
+<item key="F0705694-54BD-D5CC-E041-F19110150CAF" value="true"/>
 </engineerTo>
 <adequatelyNormalized>NO</adequatelyNormalized>
 <expectedVolumes>0</expectedVolumes>
@@ -21,7 +21,7 @@
 <commentInRDBMS><![CDATA[Identificador único, consecutivo e interno (para la base de datos) de cada producto creada en el sistema.]]></commentInRDBMS>
 <ownerDesignName>modelo</ownerDesignName>
 <engineerTo>
-<item key="C0343615-C167-F2A2-929C-50E900475776" value="true"/>
+<item key="F0705694-54BD-D5CC-E041-F19110150CAF" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -34,7 +34,7 @@
 <commentInRDBMS><![CDATA[Precio del producto en el producto]]></commentInRDBMS>
 <ownerDesignName>modelo</ownerDesignName>
 <engineerTo>
-<item key="C0343615-C167-F2A2-929C-50E900475776" value="true"/>
+<item key="F0705694-54BD-D5CC-E041-F19110150CAF" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -47,7 +47,7 @@
 <commentInRDBMS><![CDATA[Nombre de la publicación limitada a 25 caracteres ]]></commentInRDBMS>
 <ownerDesignName>modelo</ownerDesignName>
 <engineerTo>
-<item key="C0343615-C167-F2A2-929C-50E900475776" value="true"/>
+<item key="F0705694-54BD-D5CC-E041-F19110150CAF" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -61,7 +61,7 @@
 <commentInRDBMS><![CDATA[Descripción detallada sobre el producto.]]></commentInRDBMS>
 <ownerDesignName>modelo</ownerDesignName>
 <engineerTo>
-<item key="C0343615-C167-F2A2-929C-50E900475776" value="true"/>
+<item key="F0705694-54BD-D5CC-E041-F19110150CAF" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -75,7 +75,7 @@
 <commentInRDBMS><![CDATA[Fecha de actualización de la publicación.]]></commentInRDBMS>
 <ownerDesignName>modelo</ownerDesignName>
 <engineerTo>
-<item key="C0343615-C167-F2A2-929C-50E900475776" value="true"/>
+<item key="F0705694-54BD-D5CC-E041-F19110150CAF" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -88,7 +88,7 @@
 <commentInRDBMS><![CDATA[Cantidad disponible de productos para vender.]]></commentInRDBMS>
 <ownerDesignName>modelo</ownerDesignName>
 <engineerTo>
-<item key="C0343615-C167-F2A2-929C-50E900475776" value="true"/>
+<item key="F0705694-54BD-D5CC-E041-F19110150CAF" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -101,7 +101,7 @@
 <generatorID>BF2AC20B-64EE-6295-D616-FD6066699AB5</generatorID>
 <ownerDesignName>modelo</ownerDesignName>
 <engineerTo>
-<item key="C0343615-C167-F2A2-929C-50E900475776" value="true"/>
+<item key="F0705694-54BD-D5CC-E041-F19110150CAF" value="true"/>
 </engineerTo>
 <referedAttribute>6BD1E436-44FA-B387-11E2-CF7982FBD84D</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
@@ -115,7 +115,7 @@
 <generatorID>B0D05DA3-64FF-FAA8-8FEC-D52C18A0761D</generatorID>
 <ownerDesignName>modelo</ownerDesignName>
 <engineerTo>
-<item key="C0343615-C167-F2A2-929C-50E900475776" value="true"/>
+<item key="F0705694-54BD-D5CC-E041-F19110150CAF" value="true"/>
 </engineerTo>
 <referedAttribute>31F21D99-DAE8-11C2-3FC3-073763FD13F5</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
@@ -131,7 +131,7 @@
 <createdTime>2019-09-08 17:31:01 UTC</createdTime>
 <ownerDesignName>modelo</ownerDesignName>
 <engineerTo>
-<item key="C0343615-C167-F2A2-929C-50E900475776" value="true"/>
+<item key="F0705694-54BD-D5CC-E041-F19110150CAF" value="true"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>
