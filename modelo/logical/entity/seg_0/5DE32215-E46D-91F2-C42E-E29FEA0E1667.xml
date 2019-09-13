@@ -4,7 +4,7 @@
 <createdTime>2019-09-08 17:47:20 UTC</createdTime>
 <ownerDesignName>modelo</ownerDesignName>
 <engineerTo>
-<item key="D4F50DBE-2C00-ABA7-1774-C9F9303777C9" value="true"/>
+<item key="F0705694-54BD-D5CC-E041-F19110150CAF" value="true"/>
 </engineerTo>
 <adequatelyNormalized>NO</adequatelyNormalized>
 <expectedVolumes>0</expectedVolumes>
@@ -15,12 +15,24 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_photo" id="AC50FB77-F9CF-A0F0-A3E7-69F41E93B688">
+<createdBy>jufeg</createdBy>
+<createdTime>2019-09-13 13:00:23 UTC</createdTime>
+<ownerDesignName>modelo</ownerDesignName>
+<engineerTo>
+<item key="F0705694-54BD-D5CC-E041-F19110150CAF" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
 <Attribute name="id_product" id="77C68F6F-36DC-090E-FBD8-93F6B6B2851B">
 <createdBy>jufeg</createdBy>
 <createdTime>2019-09-08 17:47:26 UTC</createdTime>
 <ownerDesignName>modelo</ownerDesignName>
 <engineerTo>
-<item key="D4F50DBE-2C00-ABA7-1774-C9F9303777C9" value="true"/>
+<item key="F0705694-54BD-D5CC-E041-F19110150CAF" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -33,7 +45,7 @@
 <commentInRDBMS><![CDATA[Dirección de enlace a la ruta de la foto en sistema externo]]></commentInRDBMS>
 <ownerDesignName>modelo</ownerDesignName>
 <engineerTo>
-<item key="D4F50DBE-2C00-ABA7-1774-C9F9303777C9" value="true"/>
+<item key="F0705694-54BD-D5CC-E041-F19110150CAF" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -46,7 +58,7 @@
 <commentInRDBMS><![CDATA[Fecha de carga al sistema]]></commentInRDBMS>
 <ownerDesignName>modelo</ownerDesignName>
 <engineerTo>
-<item key="D4F50DBE-2C00-ABA7-1774-C9F9303777C9" value="true"/>
+<item key="F0705694-54BD-D5CC-E041-F19110150CAF" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -59,7 +71,7 @@
 <commentInRDBMS><![CDATA[Consecutivo de la foto que fue cargada]]></commentInRDBMS>
 <ownerDesignName>modelo</ownerDesignName>
 <engineerTo>
-<item key="D4F50DBE-2C00-ABA7-1774-C9F9303777C9" value="true"/>
+<item key="F0705694-54BD-D5CC-E041-F19110150CAF" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -72,7 +84,7 @@
 <generatorID>9D072B7E-F8B1-DA4E-FA75-0E8D866B9B3F</generatorID>
 <ownerDesignName>modelo</ownerDesignName>
 <engineerTo>
-<item key="D4F50DBE-2C00-ABA7-1774-C9F9303777C9" value="true"/>
+<item key="F0705694-54BD-D5CC-E041-F19110150CAF" value="true"/>
 </engineerTo>
 <referedAttribute>8A970440-00BB-01A3-89BD-6EE77A5A8DBA</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
@@ -87,12 +99,13 @@
 <createdTime>2019-09-08 17:48:06 UTC</createdTime>
 <ownerDesignName>modelo</ownerDesignName>
 <engineerTo>
-<item key="D4F50DBE-2C00-ABA7-1774-C9F9303777C9" value="true"/>
+<item key="F0705694-54BD-D5CC-E041-F19110150CAF" value="true"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>
 <attributeRef>77C68F6F-36DC-090E-FBD8-93F6B6B2851B</attributeRef>
 <attributeRef>22D8AD17-622C-BEFA-C919-5342DFDCDEB9</attributeRef>
+<attributeRef>AC50FB77-F9CF-A0F0-A3E7-69F41E93B688</attributeRef>
 </usedAttributes>
 </identifier>
 </identifiers>
