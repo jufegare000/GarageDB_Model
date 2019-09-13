@@ -43,21 +43,6 @@
 <dataTypeSize>100 CHAR</dataTypeSize>
 <ownDataTypeParameters>100 CHAR,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="parent_category" id="9D574776-1172-8969-88F5-6C374B2C6CBA">
-<createdBy>jufeg</createdBy>
-<createdTime>2019-09-08 18:13:28 UTC</createdTime>
-<commentInRDBMS><![CDATA[Código de categoría padre que la contiene]]></commentInRDBMS>
-<ownerDesignName>modelo</ownerDesignName>
-<engineerTo>
-<item key="F0705694-54BD-D5CC-E041-F19110150CAF" value="true"/>
-</engineerTo>
-<nullsAllowed>true</nullsAllowed>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>8 CHAR</dataTypeSize>
-<ownDataTypeParameters>8 CHAR,,</ownDataTypeParameters>
-</Attribute>
 <Attribute name="cod_category1" id="9EE584EB-B39E-5EF4-C89C-39194428BEFB">
 <createdBy>jufeg</createdBy>
 <createdTime>2019-09-08 18:36:49 UTC</createdTime>

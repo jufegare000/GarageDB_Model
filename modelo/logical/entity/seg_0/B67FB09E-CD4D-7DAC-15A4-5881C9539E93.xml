@@ -4,7 +4,7 @@
 <createdTime>2019-09-10 13:19:11 UTC</createdTime>
 <ownerDesignName>modelo</ownerDesignName>
 <engineerTo>
-<item key="D4F50DBE-2C00-ABA7-1774-C9F9303777C9" value="true"/>
+<item key="F0705694-54BD-D5CC-E041-F19110150CAF" value="true"/>
 </engineerTo>
 <adequatelyNormalized>NO</adequatelyNormalized>
 <expectedVolumes>0</expectedVolumes>
@@ -21,7 +21,7 @@
 <commentInRDBMS><![CDATA[Este campo almacena el costo de envío del producto dependiendo de la ubicación en la que se encuentra el comprador.]]></commentInRDBMS>
 <ownerDesignName>modelo</ownerDesignName>
 <engineerTo>
-<item key="D4F50DBE-2C00-ABA7-1774-C9F9303777C9" value="true"/>
+<item key="F0705694-54BD-D5CC-E041-F19110150CAF" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -34,7 +34,7 @@
 <generatorID>2CC63C78-0E14-BDA5-7C80-E9B5CF0AA924</generatorID>
 <ownerDesignName>modelo</ownerDesignName>
 <engineerTo>
-<item key="D4F50DBE-2C00-ABA7-1774-C9F9303777C9" value="true"/>
+<item key="F0705694-54BD-D5CC-E041-F19110150CAF" value="true"/>
 </engineerTo>
 <referedAttribute>8A970440-00BB-01A3-89BD-6EE77A5A8DBA</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
@@ -42,13 +42,13 @@
 <logicalDatatype>LOGDT019</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="id_user1" id="77BB5856-2CD0-F60E-403E-F9042193311D">
+<Attribute name="id_person" id="77BB5856-2CD0-F60E-403E-F9042193311D">
 <createdBy>jufeg</createdBy>
 <createdTime>2019-09-10 13:23:01 UTC</createdTime>
 <generatorID>30F1EDF1-E44B-B6EA-A498-B5D9F628D1FF</generatorID>
 <ownerDesignName>modelo</ownerDesignName>
 <engineerTo>
-<item key="D4F50DBE-2C00-ABA7-1774-C9F9303777C9" value="true"/>
+<item key="F0705694-54BD-D5CC-E041-F19110150CAF" value="true"/>
 </engineerTo>
 <referedAttribute>AFD64C8A-8039-87D5-084B-116BAE28CF97</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
@@ -62,7 +62,7 @@
 <generatorID>30F1EDF1-E44B-B6EA-A498-B5D9F628D1FF</generatorID>
 <ownerDesignName>modelo</ownerDesignName>
 <engineerTo>
-<item key="D4F50DBE-2C00-ABA7-1774-C9F9303777C9" value="true"/>
+<item key="F0705694-54BD-D5CC-E041-F19110150CAF" value="true"/>
 </engineerTo>
 <referedAttribute>69A1F790-6FC7-ABAE-A426-0BC2E72BD2CD</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
@@ -77,7 +77,7 @@
 <generatorID>42F650B8-33B5-AE6B-2A17-4862C3041BA5</generatorID>
 <ownerDesignName>modelo</ownerDesignName>
 <engineerTo>
-<item key="D4F50DBE-2C00-ABA7-1774-C9F9303777C9" value="true"/>
+<item key="F0705694-54BD-D5CC-E041-F19110150CAF" value="true"/>
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <referedAttribute>2F4215B7-E017-F3A6-3692-3884D8E29FAE</referedAttribute>
@@ -93,7 +93,7 @@
 <createdTime>2019-09-10 13:22:56 UTC</createdTime>
 <ownerDesignName>modelo</ownerDesignName>
 <engineerTo>
-<item key="D4F50DBE-2C00-ABA7-1774-C9F9303777C9" value="true"/>
+<item key="F0705694-54BD-D5CC-E041-F19110150CAF" value="true"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>

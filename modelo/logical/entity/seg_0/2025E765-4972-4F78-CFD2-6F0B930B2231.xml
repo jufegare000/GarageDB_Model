@@ -4,7 +4,7 @@
 <createdTime>2019-09-10 14:26:38 UTC</createdTime>
 <ownerDesignName>modelo</ownerDesignName>
 <engineerTo>
-<item key="D934E8BF-E612-30BD-D50A-2A5B761C08D8" value="true"/>
+<item key="F0705694-54BD-D5CC-E041-F19110150CAF" value="true"/>
 </engineerTo>
 <adequatelyNormalized>NO</adequatelyNormalized>
 <expectedVolumes>0</expectedVolumes>
@@ -20,7 +20,7 @@
 <createdTime>2019-09-13 12:21:42 UTC</createdTime>
 <ownerDesignName>modelo</ownerDesignName>
 <engineerTo>
-<item key="D934E8BF-E612-30BD-D50A-2A5B761C08D8" value="true"/>
+<item key="F0705694-54BD-D5CC-E041-F19110150CAF" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -33,7 +33,7 @@
 <commentInRDBMS><![CDATA[Fecha en la que se hace la pregunta]]></commentInRDBMS>
 <ownerDesignName>modelo</ownerDesignName>
 <engineerTo>
-<item key="D934E8BF-E612-30BD-D50A-2A5B761C08D8" value="true"/>
+<item key="F0705694-54BD-D5CC-E041-F19110150CAF" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -46,7 +46,7 @@
 <commentInRDBMS><![CDATA[Pregunta que se hace sobre la publicación al vendedor]]></commentInRDBMS>
 <ownerDesignName>modelo</ownerDesignName>
 <engineerTo>
-<item key="D934E8BF-E612-30BD-D50A-2A5B761C08D8" value="true"/>
+<item key="F0705694-54BD-D5CC-E041-F19110150CAF" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -59,7 +59,7 @@
 <commentInRDBMS><![CDATA[Respuesta del vendedor sobre la pregunta]]></commentInRDBMS>
 <ownerDesignName>modelo</ownerDesignName>
 <engineerTo>
-<item key="D934E8BF-E612-30BD-D50A-2A5B761C08D8" value="true"/>
+<item key="F0705694-54BD-D5CC-E041-F19110150CAF" value="true"/>
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
@@ -67,14 +67,14 @@
 <logicalDatatype>LogDes-1768A872-F385-FDBA-D95E-0CB63F5908E2@LOGDT10045</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="id_user" id="A573DDC6-10F2-1E1F-BED7-BF853271D40D">
+<Attribute name="id_person" id="A573DDC6-10F2-1E1F-BED7-BF853271D40D">
 <createdBy>jufeg</createdBy>
 <createdTime>2019-09-10 14:29:00 UTC</createdTime>
 <commentInRDBMS><![CDATA[Id de usuario quien pregunta]]></commentInRDBMS>
 <generatorID>7553E92C-7090-495A-BB24-1F881751A8EA</generatorID>
 <ownerDesignName>modelo</ownerDesignName>
 <engineerTo>
-<item key="D934E8BF-E612-30BD-D50A-2A5B761C08D8" value="true"/>
+<item key="F0705694-54BD-D5CC-E041-F19110150CAF" value="true"/>
 </engineerTo>
 <referedAttribute>AFD64C8A-8039-87D5-084B-116BAE28CF97</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
@@ -89,7 +89,7 @@
 <generatorID>7553E92C-7090-495A-BB24-1F881751A8EA</generatorID>
 <ownerDesignName>modelo</ownerDesignName>
 <engineerTo>
-<item key="D934E8BF-E612-30BD-D50A-2A5B761C08D8" value="true"/>
+<item key="F0705694-54BD-D5CC-E041-F19110150CAF" value="true"/>
 </engineerTo>
 <referedAttribute>69A1F790-6FC7-ABAE-A426-0BC2E72BD2CD</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
@@ -105,7 +105,7 @@
 <createdTime>2019-09-10 14:29:40 UTC</createdTime>
 <ownerDesignName>modelo</ownerDesignName>
 <engineerTo>
-<item key="D934E8BF-E612-30BD-D50A-2A5B761C08D8" value="true"/>
+<item key="F0705694-54BD-D5CC-E041-F19110150CAF" value="true"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>

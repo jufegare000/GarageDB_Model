@@ -4,7 +4,7 @@
 <createdTime>2019-09-11 21:13:00 UTC</createdTime>
 <ownerDesignName>modelo</ownerDesignName>
 <engineerTo>
-<item key="D4F50DBE-2C00-ABA7-1774-C9F9303777C9" value="true"/>
+<item key="F0705694-54BD-D5CC-E041-F19110150CAF" value="true"/>
 </engineerTo>
 <adequatelyNormalized>NO</adequatelyNormalized>
 <expectedVolumes>0</expectedVolumes>
@@ -21,7 +21,7 @@
 <commentInRDBMS><![CDATA[Id de la devolución]]></commentInRDBMS>
 <ownerDesignName>modelo</ownerDesignName>
 <engineerTo>
-<item key="D4F50DBE-2C00-ABA7-1774-C9F9303777C9" value="true"/>
+<item key="F0705694-54BD-D5CC-E041-F19110150CAF" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -34,7 +34,7 @@
 <commentInRDBMS><![CDATA[Razón por la cuál se devuleve el producto]]></commentInRDBMS>
 <ownerDesignName>modelo</ownerDesignName>
 <engineerTo>
-<item key="D4F50DBE-2C00-ABA7-1774-C9F9303777C9" value="true"/>
+<item key="F0705694-54BD-D5CC-E041-F19110150CAF" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -48,7 +48,7 @@
 <commentInRDBMS><![CDATA[Tipo de devolución ]]></commentInRDBMS>
 <ownerDesignName>modelo</ownerDesignName>
 <engineerTo>
-<item key="D4F50DBE-2C00-ABA7-1774-C9F9303777C9" value="true"/>
+<item key="F0705694-54BD-D5CC-E041-F19110150CAF" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -62,7 +62,7 @@
 <generatorID>351580CB-A0B4-FFE8-1500-37BFE3250A94</generatorID>
 <ownerDesignName>modelo</ownerDesignName>
 <engineerTo>
-<item key="D4F50DBE-2C00-ABA7-1774-C9F9303777C9" value="true"/>
+<item key="F0705694-54BD-D5CC-E041-F19110150CAF" value="true"/>
 </engineerTo>
 <referedAttribute>2F4215B7-E017-F3A6-3692-3884D8E29FAE</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
@@ -76,7 +76,7 @@
 <commentInRDBMS><![CDATA[dinero devuelto al usaurio compradro]]></commentInRDBMS>
 <ownerDesignName>modelo</ownerDesignName>
 <engineerTo>
-<item key="D4F50DBE-2C00-ABA7-1774-C9F9303777C9" value="true"/>
+<item key="F0705694-54BD-D5CC-E041-F19110150CAF" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -89,7 +89,7 @@
 <generatorID>4F170A7F-EECE-50FA-FD3F-4D38EF3B20DE</generatorID>
 <ownerDesignName>modelo</ownerDesignName>
 <engineerTo>
-<item key="D4F50DBE-2C00-ABA7-1774-C9F9303777C9" value="true"/>
+<item key="F0705694-54BD-D5CC-E041-F19110150CAF" value="true"/>
 </engineerTo>
 <referedAttribute>7984BC66-378D-9607-DA8A-8DD153C3FE8A</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
@@ -97,14 +97,14 @@
 <logicalDatatype>LOGDT019</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="id_user1" id="93A501A3-8076-A84D-5E89-FC2F428E7181">
+<Attribute name="id_person" id="93A501A3-8076-A84D-5E89-FC2F428E7181">
 <createdBy>jufeg</createdBy>
 <createdTime>2019-09-11 21:25:47 UTC</createdTime>
 <commentInRDBMS><![CDATA[Id usuario comprador]]></commentInRDBMS>
 <generatorID>4F170A7F-EECE-50FA-FD3F-4D38EF3B20DE</generatorID>
 <ownerDesignName>modelo</ownerDesignName>
 <engineerTo>
-<item key="D4F50DBE-2C00-ABA7-1774-C9F9303777C9" value="true"/>
+<item key="F0705694-54BD-D5CC-E041-F19110150CAF" value="true"/>
 </engineerTo>
 <referedAttribute>77BB5856-2CD0-F60E-403E-F9042193311D</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
@@ -119,7 +119,7 @@
 <generatorID>4F170A7F-EECE-50FA-FD3F-4D38EF3B20DE</generatorID>
 <ownerDesignName>modelo</ownerDesignName>
 <engineerTo>
-<item key="D4F50DBE-2C00-ABA7-1774-C9F9303777C9" value="true"/>
+<item key="F0705694-54BD-D5CC-E041-F19110150CAF" value="true"/>
 </engineerTo>
 <referedAttribute>82A763EB-519C-0091-5071-EF6101FA8EBB</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
@@ -135,7 +135,7 @@
 <createdTime>2019-09-11 21:13:20 UTC</createdTime>
 <ownerDesignName>modelo</ownerDesignName>
 <engineerTo>
-<item key="D4F50DBE-2C00-ABA7-1774-C9F9303777C9" value="true"/>
+<item key="F0705694-54BD-D5CC-E041-F19110150CAF" value="true"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>
