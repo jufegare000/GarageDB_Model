@@ -1,0 +1,26 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Diagram class="oracle.dbtools.crest.swingui.relational.DPVRelational" name="Relational_1" id="87BA414A-EB56-4231-BE66-ED930665FE5C">
+<createdBy>jufeg</createdBy>
+<modifiedBy>jufeg</modifiedBy>
+<createdTime>2019-09-13 13:58:26 UTC</createdTime>
+<autoRoute>false</autoRoute>
+<boxInbox>true</boxInbox>
+<showLegend>false</showLegend>
+<showLabels>false</showLabels>
+<showRelAttributes>false</showRelAttributes>
+<gridEnabled>false</gridEnabled>
+<showGrid>false</showGrid>
+<diagramColor>-1</diagramColor>
+<display>false</display>
+<notation>1</notation>
+<objectViews>
+<OView class="oracle.dbtools.crest.swingui.relational.TVTable" oid="322C689F-B13C-41B2-F6A9-39874E9DAD3A" otype="Table" vid="9FD5A70C-DEFB-2C79-1FE5-FBB01ABE6BDA">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<bounds x="1085" y="115" width="129" height="93"/>
+</OView>
+<OView class="oracle.dbtools.crest.swingui.relational.TVTable" oid="99531BBB-BA50-024D-3EAC-0070510DE730" otype="Table" vid="BF190487-BDAC-348D-0805-30FAE86BFBD9">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<bounds x="1146" y="581" width="103" height="89"/>
+</OView>
+</objectViews>
+</Diagram>
