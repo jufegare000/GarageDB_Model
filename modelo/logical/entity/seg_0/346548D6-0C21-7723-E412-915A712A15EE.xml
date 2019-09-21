@@ -58,53 +58,6 @@
 <logicalDatatype>LOGDT008</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="id_person" id="3B48D336-57BB-12D1-317F-08C9E82947EB">
-<createdBy>jufeg</createdBy>
-<createdTime>2019-09-11 04:34:34 UTC</createdTime>
-<generatorID>31968C82-A5EA-79D2-8846-9D7A5E311FFB</generatorID>
-<ownerDesignName>modelo</ownerDesignName>
-<shouldEngineer>false</shouldEngineer>
-<engineerTo>
-<item key="87341601-4870-5C46-A48C-A6B5F5124CF1" value="false"/>
-</engineerTo>
-<referedAttribute>AFD64C8A-8039-87D5-084B-116BAE28CF97</referedAttribute>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT019</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="cell_phone" id="AFF37A8B-6639-BECD-82CD-F6FCF772F5AC">
-<createdBy>jufeg</createdBy>
-<createdTime>2019-09-11 04:34:34 UTC</createdTime>
-<generatorID>31968C82-A5EA-79D2-8846-9D7A5E311FFB</generatorID>
-<ownerDesignName>modelo</ownerDesignName>
-<shouldEngineer>false</shouldEngineer>
-<engineerTo>
-<item key="87341601-4870-5C46-A48C-A6B5F5124CF1" value="false"/>
-</engineerTo>
-<referedAttribute>69A1F790-6FC7-ABAE-A426-0BC2E72BD2CD</referedAttribute>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>25 CHAR</dataTypeSize>
-<ownDataTypeParameters>25 CHAR,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="purchase_number" id="2C864770-6A62-B374-2D17-0ADD2C2F3C94">
-<createdBy>jufeg</createdBy>
-<createdTime>2019-09-11 04:37:31 UTC</createdTime>
-<generatorID>09DA8453-9B82-B11D-7523-6ED188DABEDB</generatorID>
-<ownerDesignName>modelo</ownerDesignName>
-<shouldEngineer>false</shouldEngineer>
-<engineerTo>
-<item key="87341601-4870-5C46-A48C-A6B5F5124CF1" value="false"/>
-</engineerTo>
-<nullsAllowed>true</nullsAllowed>
-<referedAttribute>2F4215B7-E017-F3A6-3692-3884D8E29FAE</referedAttribute>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT019</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
 <Attribute name="rate" id="87A8D558-B3E7-1368-899D-0D3CBC9882EB">
 <createdBy>jufeg</createdBy>
 <createdTime>2019-09-13 14:26:21 UTC</createdTime>
@@ -116,6 +69,20 @@
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT018</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_person" id="9BB996B5-364C-1C34-2025-16CDB8DC5A93">
+<createdBy>jufeg</createdBy>
+<createdTime>2019-09-21 19:13:04 UTC</createdTime>
+<generatorID>31968C82-A5EA-79D2-8846-9D7A5E311FFB</generatorID>
+<ownerDesignName>modelo</ownerDesignName>
+<engineerTo>
+<item key="87341601-4870-5C46-A48C-A6B5F5124CF1" value="true"/>
+</engineerTo>
+<referedAttribute>AFD64C8A-8039-87D5-084B-116BAE28CF97</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 </attributes>

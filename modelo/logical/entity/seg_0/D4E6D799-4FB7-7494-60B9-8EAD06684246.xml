@@ -88,21 +88,6 @@ Puede ser:
 <logicalDatatype>LOGDT019</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="cell_phone" id="42EE9696-D7CD-AE35-FED8-8637FDB4B6F4">
-<createdBy>jufeg</createdBy>
-<createdTime>2019-09-07 18:30:02 UTC</createdTime>
-<generatorID>5310A65E-ABD3-37E4-3701-768975BF7B9A</generatorID>
-<ownerDesignName>modelo</ownerDesignName>
-<engineerTo>
-<item key="87341601-4870-5C46-A48C-A6B5F5124CF1" value="true"/>
-</engineerTo>
-<referedAttribute>69A1F790-6FC7-ABAE-A426-0BC2E72BD2CD</referedAttribute>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>25 CHAR</dataTypeSize>
-<ownDataTypeParameters>25 CHAR,,</ownDataTypeParameters>
-</Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
 <identifier id="1511205D-CC62-5FA1-1A52-FCB5AEC15210" name="Publication PK">
@@ -115,6 +100,7 @@ Puede ser:
 <pk>true</pk>
 <usedAttributes>
 <attributeRef>6BD1E436-44FA-B387-11E2-CF7982FBD84D</attributeRef>
+<attributeRef>AB9EB505-83EE-2E9E-E1F8-D9AB3826463E</attributeRef>
 </usedAttributes>
 </identifier>
 </identifiers>

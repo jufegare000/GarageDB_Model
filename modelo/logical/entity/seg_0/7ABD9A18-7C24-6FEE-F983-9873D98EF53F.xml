@@ -4,7 +4,7 @@
 <createdTime>2019-09-10 13:27:50 UTC</createdTime>
 <ownerDesignName>modelo</ownerDesignName>
 <engineerTo>
-<item key="D934E8BF-E612-30BD-D50A-2A5B761C08D8" value="true"/>
+<item key="87341601-4870-5C46-A48C-A6B5F5124CF1" value="true"/>
 </engineerTo>
 <adequatelyNormalized>NO</adequatelyNormalized>
 <expectedVolumes>0</expectedVolumes>
@@ -21,7 +21,7 @@
 <commentInRDBMS><![CDATA[Número de compra: éste es retornado por la pasera de pago]]></commentInRDBMS>
 <ownerDesignName>modelo</ownerDesignName>
 <engineerTo>
-<item key="D934E8BF-E612-30BD-D50A-2A5B761C08D8" value="true"/>
+<item key="87341601-4870-5C46-A48C-A6B5F5124CF1" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -34,7 +34,7 @@
 <commentInRDBMS><![CDATA[Valor a pagar por el usuario comprador]]></commentInRDBMS>
 <ownerDesignName>modelo</ownerDesignName>
 <engineerTo>
-<item key="D934E8BF-E612-30BD-D50A-2A5B761C08D8" value="true"/>
+<item key="87341601-4870-5C46-A48C-A6B5F5124CF1" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -47,11 +47,26 @@
 <commentInRDBMS><![CDATA[Fecha en la que fue efectuado el pago de los productos.]]></commentInRDBMS>
 <ownerDesignName>modelo</ownerDesignName>
 <engineerTo>
-<item key="D934E8BF-E612-30BD-D50A-2A5B761C08D8" value="true"/>
+<item key="87341601-4870-5C46-A48C-A6B5F5124CF1" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="license_number" id="ACCF2F6E-29AE-2220-BF22-6C0EFB6BC79D">
+<createdBy>jufeg</createdBy>
+<createdTime>2019-09-21 19:28:55 UTC</createdTime>
+<generatorID>F15D344A-F9F7-DE45-E9CF-73A339D36E1B</generatorID>
+<ownerDesignName>modelo</ownerDesignName>
+<engineerTo>
+<item key="87341601-4870-5C46-A48C-A6B5F5124CF1" value="true"/>
+</engineerTo>
+<referedAttribute>2804406A-76E2-A516-BAD0-F3C0E3A002AA</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
@@ -61,7 +76,7 @@
 <createdTime>2019-09-10 13:35:53 UTC</createdTime>
 <ownerDesignName>modelo</ownerDesignName>
 <engineerTo>
-<item key="D934E8BF-E612-30BD-D50A-2A5B761C08D8" value="true"/>
+<item key="87341601-4870-5C46-A48C-A6B5F5124CF1" value="true"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>

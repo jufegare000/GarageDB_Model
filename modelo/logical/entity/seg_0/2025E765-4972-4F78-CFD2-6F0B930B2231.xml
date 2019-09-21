@@ -68,22 +68,6 @@
 <logicalDatatype>LOGDT019</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="cell_phone" id="4A0B46BA-A0C4-5B42-3FB1-C095DDA65CD5">
-<createdBy>jufeg</createdBy>
-<createdTime>2019-09-10 14:29:00 UTC</createdTime>
-<commentInRDBMS><![CDATA[Celular de usuario quien pregunta]]></commentInRDBMS>
-<generatorID>7553E92C-7090-495A-BB24-1F881751A8EA</generatorID>
-<ownerDesignName>modelo</ownerDesignName>
-<engineerTo>
-<item key="87341601-4870-5C46-A48C-A6B5F5124CF1" value="true"/>
-</engineerTo>
-<referedAttribute>69A1F790-6FC7-ABAE-A426-0BC2E72BD2CD</referedAttribute>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>25 CHAR</dataTypeSize>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
 <Attribute name="Response" id="83E8C415-819A-663F-2A35-A737B0680060">
 <createdBy>jufeg</createdBy>
 <createdTime>2019-09-10 14:28:24 UTC</createdTime>
@@ -152,6 +136,9 @@
 <pk>true</pk>
 <usedAttributes>
 <attributeRef>BB381871-64E8-9095-59CA-96171939A0DF</attributeRef>
+<attributeRef>A573DDC6-10F2-1E1F-BED7-BF853271D40D</attributeRef>
+<attributeRef>2937BF81-C829-8622-C927-CD6A45A0BA62</attributeRef>
+<attributeRef>8D3642EC-EC42-0700-86CC-CAE20894C7EA</attributeRef>
 </usedAttributes>
 </identifier>
 </identifiers>

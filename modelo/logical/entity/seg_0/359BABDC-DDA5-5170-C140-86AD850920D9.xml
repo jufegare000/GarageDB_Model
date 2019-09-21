@@ -60,6 +60,18 @@
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
 <dataTypeSize>8 CHAR</dataTypeSize>
+<ownDataTypeParameters>8 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id" id="B9F74C29-E57F-47F6-A39D-B0DA52724A0C">
+<createdBy>jufeg</createdBy>
+<createdTime>2019-09-21 19:31:34 UTC</createdTime>
+<ownerDesignName>modelo</ownerDesignName>
+<engineerTo>
+<item key="87341601-4870-5C46-A48C-A6B5F5124CF1" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
@@ -75,6 +87,7 @@
 <pk>true</pk>
 <usedAttributes>
 <attributeRef>4136C230-FCAA-1A39-8A87-58AAB9498566</attributeRef>
+<attributeRef>B9F74C29-E57F-47F6-A39D-B0DA52724A0C</attributeRef>
 </usedAttributes>
 </identifier>
 </identifiers>

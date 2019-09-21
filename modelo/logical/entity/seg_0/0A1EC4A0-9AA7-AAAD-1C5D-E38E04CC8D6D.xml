@@ -4,7 +4,7 @@
 <createdTime>2019-09-08 18:58:50 UTC</createdTime>
 <ownerDesignName>modelo</ownerDesignName>
 <engineerTo>
-<item key="D4F50DBE-2C00-ABA7-1774-C9F9303777C9" value="true"/>
+<item key="87341601-4870-5C46-A48C-A6B5F5124CF1" value="true"/>
 </engineerTo>
 <adequatelyNormalized>NO</adequatelyNormalized>
 <expectedVolumes>0</expectedVolumes>
@@ -21,7 +21,7 @@
 <generatorID>7D76D57F-BB82-F368-A0E7-5B7CFE037E61</generatorID>
 <ownerDesignName>modelo</ownerDesignName>
 <engineerTo>
-<item key="D4F50DBE-2C00-ABA7-1774-C9F9303777C9" value="true"/>
+<item key="87341601-4870-5C46-A48C-A6B5F5124CF1" value="true"/>
 </engineerTo>
 <referedAttribute>8A970440-00BB-01A3-89BD-6EE77A5A8DBA</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
@@ -29,32 +29,29 @@
 <logicalDatatype>LOGDT019</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="code_feature" id="CFCC793B-F2E0-8BA1-3FB5-6D76D527FD8E">
-<createdBy>jufeg</createdBy>
-<createdTime>2019-09-08 19:01:27 UTC</createdTime>
-<generatorID>078D1C5A-395D-DB73-79D5-5F7D3D84BF1B</generatorID>
-<ownerDesignName>modelo</ownerDesignName>
-<engineerTo>
-<item key="D4F50DBE-2C00-ABA7-1774-C9F9303777C9" value="true"/>
-</engineerTo>
-<referedAttribute>F0597E61-E7A3-A3D3-B17F-B1FF6AA4D98A</referedAttribute>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>8 CHAR</dataTypeSize>
-<ownDataTypeParameters>8 CHAR,,</ownDataTypeParameters>
-</Attribute>
 <Attribute name="value_registered" id="05A650AE-D954-40DF-5344-453D0045B983">
 <createdBy>jufeg</createdBy>
 <createdTime>2019-09-08 19:03:24 UTC</createdTime>
 <commentInRDBMS><![CDATA[Valor ingresado por el usuario para cada característica]]></commentInRDBMS>
 <ownerDesignName>modelo</ownerDesignName>
 <engineerTo>
-<item key="D4F50DBE-2C00-ABA7-1774-C9F9303777C9" value="true"/>
+<item key="87341601-4870-5C46-A48C-A6B5F5124CF1" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LogDes-1768A872-F385-FDBA-D95E-0CB63F5908E2@LOGDT10045</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id" id="460511DB-D2E7-0012-2035-A164E16DDA95">
+<createdBy>jufeg</createdBy>
+<createdTime>2019-09-21 19:33:59 UTC</createdTime>
+<ownerDesignName>modelo</ownerDesignName>
+<engineerTo>
+<item key="87341601-4870-5C46-A48C-A6B5F5124CF1" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
@@ -64,12 +61,12 @@
 <createdTime>2019-09-08 19:00:57 UTC</createdTime>
 <ownerDesignName>modelo</ownerDesignName>
 <engineerTo>
-<item key="D4F50DBE-2C00-ABA7-1774-C9F9303777C9" value="true"/>
+<item key="87341601-4870-5C46-A48C-A6B5F5124CF1" value="true"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>
 <attributeRef>9D2F5C3D-DA74-B310-DAD0-49CA3D66CAAF</attributeRef>
-<attributeRef>CFCC793B-F2E0-8BA1-3FB5-6D76D527FD8E</attributeRef>
+<attributeRef>460511DB-D2E7-0012-2035-A164E16DDA95</attributeRef>
 </usedAttributes>
 </identifier>
 </identifiers>

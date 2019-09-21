@@ -131,7 +131,7 @@
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
 <dataTypeSize>8 CHAR</dataTypeSize>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<ownDataTypeParameters>8 CHAR,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="consecutive" id="452455C8-B7B3-5A3E-199B-FE224D2DA7F2">
 <createdBy>jufeg</createdBy>

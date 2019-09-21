@@ -4,9 +4,10 @@
 <createdTime>2019-09-10 14:22:25 UTC</createdTime>
 <ownerDesignName>modelo</ownerDesignName>
 <engineerTo>
-<item key="EED47A9C-CC1C-E50E-E0AF-DAE849A859D6" value="true"/>
+<item key="87341601-4870-5C46-A48C-A6B5F5124CF1" value="true"/>
 </engineerTo>
 <sourcePk>918563B7-A8D6-65C0-84F8-7919E6B9289F</sourcePk>
+<targetPk>B3BB19A4-7E29-3088-45C4-5267C799C830</targetPk>
 <identifying>false</identifying>
 <nameOnSource>Comments</nameOnSource>
 <nameOnTarget>Is created</nameOnTarget>
@@ -14,7 +15,7 @@
 <optionalTarget>false</optionalTarget>
 <sourceCardinality>1</sourceCardinality>
 <sourceEntity>A23CB17B-25B6-4040-A32A-5BE097A0EAA0</sourceEntity>
-<targetCardinalityString>1</targetCardinalityString>
+<targetCardinalityString>*</targetCardinalityString>
 <targetEntity>346548D6-0C21-7723-E412-915A712A15EE</targetEntity>
 <transferable>true</transferable>
 <deleteRule>NO ACTION</deleteRule>

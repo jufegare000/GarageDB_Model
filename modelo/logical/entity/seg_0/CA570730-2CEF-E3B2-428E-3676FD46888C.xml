@@ -1,7 +1,7 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="A23CB17B-25B6-4040-A32A-5BE097A0EAA0" name="Person">
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="CA570730-2CEF-E3B2-428E-3676FD46888C" name="Response">
 <createdBy>jufeg</createdBy>
-<createdTime>2019-09-07 17:51:05 UTC</createdTime>
+<createdTime>2019-09-21 18:55:56 UTC</createdTime>
 <ownerDesignName>modelo</ownerDesignName>
 <engineerTo>
 <item key="87341601-4870-5C46-A48C-A6B5F5124CF1" value="true"/>
@@ -15,10 +15,10 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="id_person" id="AFD64C8A-8039-87D5-084B-116BAE28CF97">
+<Attribute name="id_response" id="8CD5E3CD-5E08-FFFF-8EC4-A708E39592DF">
 <createdBy>jufeg</createdBy>
-<createdTime>2019-09-07 17:51:15 UTC</createdTime>
-<commentInRDBMS><![CDATA[Identificador único, consecutivo e interno (para la base de datos) de cada usuario creado en el sistema.]]></commentInRDBMS>
+<createdTime>2019-09-21 18:56:08 UTC</createdTime>
+<commentInRDBMS><![CDATA[Id de la respuesta a una pregunta]]></commentInRDBMS>
 <ownerDesignName>modelo</ownerDesignName>
 <engineerTo>
 <item key="87341601-4870-5C46-A48C-A6B5F5124CF1" value="true"/>
@@ -28,25 +28,10 @@
 <logicalDatatype>LOGDT019</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="cell_phone" id="69A1F790-6FC7-ABAE-A426-0BC2E72BD2CD">
+<Attribute name="descripcion" id="38B84BE0-268F-9E63-42C9-566FA1341EE5">
 <createdBy>jufeg</createdBy>
-<createdTime>2019-09-07 17:53:21 UTC</createdTime>
-<commentInRDBMS><![CDATA[Número de celular con el cual el usuario se registra]]></commentInRDBMS>
-<ownerDesignName>modelo</ownerDesignName>
-<engineerTo>
-<item key="87341601-4870-5C46-A48C-A6B5F5124CF1" value="true"/>
-</engineerTo>
-<nullsAllowed>true</nullsAllowed>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>25 CHAR</dataTypeSize>
-<ownDataTypeParameters>25 CHAR,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="name" id="9BBC368A-38D8-B1FF-D473-B30998F823BE">
-<createdBy>jufeg</createdBy>
-<createdTime>2019-09-07 17:55:27 UTC</createdTime>
-<commentInRDBMS><![CDATA[Nombre del usuario registrado]]></commentInRDBMS>
+<createdTime>2019-09-21 18:56:34 UTC</createdTime>
+<commentInRDBMS><![CDATA[Respuesta escrita por el usuario vendedor]]></commentInRDBMS>
 <ownerDesignName>modelo</ownerDesignName>
 <engineerTo>
 <item key="87341601-4870-5C46-A48C-A6B5F5124CF1" value="true"/>
@@ -54,28 +39,41 @@
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>255</dataTypeSize>
-<ownDataTypeParameters>255,,</ownDataTypeParameters>
+<dataTypeSize>5000 CHAR</dataTypeSize>
+<ownDataTypeParameters>5000 CHAR,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="email" id="2BFB3672-49F5-C5FA-4329-9802B7A495ED">
+<Attribute name="id_question" id="45876EAC-2572-101E-C61E-A0F2FC6A6899">
 <createdBy>jufeg</createdBy>
-<createdTime>2019-09-07 18:00:34 UTC</createdTime>
-<commentInRDBMS><![CDATA[Email del usuario]]></commentInRDBMS>
+<createdTime>2019-09-21 19:06:18 UTC</createdTime>
+<generatorID>1E1E245E-38C4-ED8A-EF78-18D91EF9DEB1</generatorID>
 <ownerDesignName>modelo</ownerDesignName>
 <engineerTo>
 <item key="87341601-4870-5C46-A48C-A6B5F5124CF1" value="true"/>
 </engineerTo>
-<nullsAllowed>true</nullsAllowed>
+<referedAttribute>BB381871-64E8-9095-59CA-96171939A0DF</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>150 CHAR</dataTypeSize>
-<ownDataTypeParameters>150 CHAR,,</ownDataTypeParameters>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="created_at" id="D10E563E-8D2E-AB89-779E-A2D1B9599491">
+<Attribute name="id_person" id="C1799CFD-B3A1-C592-A55E-40326B2C894B">
 <createdBy>jufeg</createdBy>
-<createdTime>2019-09-07 18:02:44 UTC</createdTime>
-<commentInRDBMS><![CDATA[Fecha de creación del usuario]]></commentInRDBMS>
+<createdTime>2019-09-21 19:06:18 UTC</createdTime>
+<generatorID>1E1E245E-38C4-ED8A-EF78-18D91EF9DEB1</generatorID>
+<ownerDesignName>modelo</ownerDesignName>
+<engineerTo>
+<item key="87341601-4870-5C46-A48C-A6B5F5124CF1" value="true"/>
+</engineerTo>
+<referedAttribute>A573DDC6-10F2-1E1F-BED7-BF853271D40D</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="response_date" id="268A98CF-D33B-8751-B1D3-ADFE7CC78A5C">
+<createdBy>jufeg</createdBy>
+<createdTime>2019-09-21 19:06:50 UTC</createdTime>
+<commentInRDBMS><![CDATA[Fecha de respuesta de usuario.]]></commentInRDBMS>
 <ownerDesignName>modelo</ownerDesignName>
 <engineerTo>
 <item key="87341601-4870-5C46-A48C-A6B5F5124CF1" value="true"/>
@@ -85,50 +83,50 @@
 <logicalDatatype>LOGDT007</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="state" id="F97B7737-7039-033D-6880-79E9A5932831">
+<Attribute name="id_publication" id="A0A05D7A-E72E-B1F9-9FAC-AFAFB43EDC95">
 <createdBy>jufeg</createdBy>
-<createdTime>2019-09-07 18:03:21 UTC</createdTime>
-<commentInRDBMS><![CDATA[Estado del usuario: puede ser: 
--Activo.
--Inactivo.
--Baneado]]></commentInRDBMS>
+<createdTime>2019-09-21 19:08:34 UTC</createdTime>
+<generatorID>1E1E245E-38C4-ED8A-EF78-18D91EF9DEB1</generatorID>
 <ownerDesignName>modelo</ownerDesignName>
 <engineerTo>
 <item key="87341601-4870-5C46-A48C-A6B5F5124CF1" value="true"/>
 </engineerTo>
+<referedAttribute>2937BF81-C829-8622-C927-CD6A45A0BA62</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>20 CHAR</dataTypeSize>
-<ownDataTypeParameters>20 CHAR,,</ownDataTypeParameters>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="Address" id="1A10E8AC-64BD-1143-DC9A-BC8C023C210A">
+<Attribute name="id_person1" id="B3CC4B7F-BFB3-B536-4FC8-EEED78183D3D">
 <createdBy>jufeg</createdBy>
-<createdTime>2019-09-07 18:48:55 UTC</createdTime>
-<commentInRDBMS><![CDATA[Dirección de envio o recepción de productos por parte del usuario]]></commentInRDBMS>
+<createdTime>2019-09-21 19:08:34 UTC</createdTime>
+<generatorID>1E1E245E-38C4-ED8A-EF78-18D91EF9DEB1</generatorID>
 <ownerDesignName>modelo</ownerDesignName>
 <engineerTo>
 <item key="87341601-4870-5C46-A48C-A6B5F5124CF1" value="true"/>
 </engineerTo>
-<nullsAllowed>true</nullsAllowed>
+<referedAttribute>8D3642EC-EC42-0700-86CC-CAE20894C7EA</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>255</dataTypeSize>
-<ownDataTypeParameters>255,,</ownDataTypeParameters>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
-<identifier id="918563B7-A8D6-65C0-84F8-7919E6B9289F" name="Usuario PK">
+<identifier id="453FD841-48AF-0DF4-C68D-8DEC13A51ABA" name="Response PK">
 <createdBy>jufeg</createdBy>
-<createdTime>2019-09-07 17:52:18 UTC</createdTime>
+<createdTime>2019-09-21 18:56:24 UTC</createdTime>
 <ownerDesignName>modelo</ownerDesignName>
 <engineerTo>
 <item key="87341601-4870-5C46-A48C-A6B5F5124CF1" value="true"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>
-<attributeRef>AFD64C8A-8039-87D5-084B-116BAE28CF97</attributeRef>
+<attributeRef>8CD5E3CD-5E08-FFFF-8EC4-A708E39592DF</attributeRef>
+<attributeRef>45876EAC-2572-101E-C61E-A0F2FC6A6899</attributeRef>
+<attributeRef>C1799CFD-B3A1-C592-A55E-40326B2C894B</attributeRef>
+<attributeRef>A0A05D7A-E72E-B1F9-9FAC-AFAFB43EDC95</attributeRef>
+<attributeRef>B3CC4B7F-BFB3-B536-4FC8-EEED78183D3D</attributeRef>
 </usedAttributes>
 </identifier>
 </identifiers>

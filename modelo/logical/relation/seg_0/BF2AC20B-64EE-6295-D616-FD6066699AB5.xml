@@ -11,7 +11,7 @@
 <identifying>false</identifying>
 <nameOnSource>Has</nameOnSource>
 <nameOnTarget>Is Associated</nameOnTarget>
-<optionalSource>false</optionalSource>
+<optionalSource>true</optionalSource>
 <optionalTarget>false</optionalTarget>
 <sourceCardinality>1</sourceCardinality>
 <sourceEntity>D4E6D799-4FB7-7494-60B9-8EAD06684246</sourceEntity>

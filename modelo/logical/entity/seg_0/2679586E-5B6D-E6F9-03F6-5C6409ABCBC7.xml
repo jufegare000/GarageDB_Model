@@ -104,37 +104,17 @@
 <logicalDatatype>LOGDT019</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="id_person" id="93A501A3-8076-A84D-5E89-FC2F428E7181">
+<Attribute name="id" id="82B7D36E-8F78-9ED8-6B50-C3556CCC1F0F">
 <createdBy>jufeg</createdBy>
-<createdTime>2019-09-11 21:25:47 UTC</createdTime>
-<commentInRDBMS><![CDATA[Id usuario comprador]]></commentInRDBMS>
+<createdTime>2019-09-21 19:29:53 UTC</createdTime>
 <generatorID>4F170A7F-EECE-50FA-FD3F-4D38EF3B20DE</generatorID>
 <ownerDesignName>modelo</ownerDesignName>
-<shouldEngineer>false</shouldEngineer>
 <engineerTo>
-<item key="87341601-4870-5C46-A48C-A6B5F5124CF1" value="false"/>
+<item key="87341601-4870-5C46-A48C-A6B5F5124CF1" value="true"/>
 </engineerTo>
-<referedAttribute>77BB5856-2CD0-F60E-403E-F9042193311D</referedAttribute>
-<useDomainConstraints>false</useDomainConstraints>
+<referedAttribute>B5FA845E-99BC-A5CE-A700-7DA04AC48188</referedAttribute>
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="cell_phone1" id="8C180948-1ED8-D6A0-3833-F00B46041B04">
-<createdBy>jufeg</createdBy>
-<createdTime>2019-09-11 21:25:47 UTC</createdTime>
-<commentInRDBMS><![CDATA[Celular de usuario comprador]]></commentInRDBMS>
-<generatorID>4F170A7F-EECE-50FA-FD3F-4D38EF3B20DE</generatorID>
-<ownerDesignName>modelo</ownerDesignName>
-<shouldEngineer>false</shouldEngineer>
-<engineerTo>
-<item key="87341601-4870-5C46-A48C-A6B5F5124CF1" value="false"/>
-</engineerTo>
-<referedAttribute>82A763EB-519C-0091-5071-EF6101FA8EBB</referedAttribute>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>25 CHAR</dataTypeSize>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 </attributes>

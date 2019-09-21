@@ -126,6 +126,18 @@
 <dataTypeSize>50 CHAR</dataTypeSize>
 <ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
 </Attribute>
+<Attribute name="transport_date" id="9E4345FE-A082-0EDE-F474-35D08B5A0BEE">
+<createdBy>jufeg</createdBy>
+<createdTime>2019-09-21 19:32:09 UTC</createdTime>
+<ownerDesignName>modelo</ownerDesignName>
+<engineerTo>
+<item key="87341601-4870-5C46-A48C-A6B5F5124CF1" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
 <identifier id="71883DE7-89A0-5AA9-3282-F57CDFC03E58" name="TransportOrder PK">
@@ -139,6 +151,7 @@
 <pk>true</pk>
 <usedAttributes>
 <attributeRef>EAB730BC-F995-4EAF-1619-BBB5C781B8C8</attributeRef>
+<attributeRef>7CC1EE24-6C14-9DF7-ACDE-695D1C660E08</attributeRef>
 </usedAttributes>
 </identifier>
 </identifiers>
